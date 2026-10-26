@@ -42,9 +42,12 @@ def write_index(out: Path, items: list[tuple[str, Path]]) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("subsets", nargs="*", default=SUBSETS, choices=SUBSETS)
+    # No choices=: Python 3.10 argparse rejects an empty nargs="*" list against choices.
+    ap.add_argument("subsets", nargs="*", help=f"default: all of {SUBSETS}")
     ap.add_argument("--limit", type=int, help="first N utterances per subset (for testing)")
     args = ap.parse_args()
+    if bad := set(args.subsets) - set(SUBSETS):
+        ap.error(f"unknown subsets {sorted(bad)}; choose from {SUBSETS}")
 
     paths = load_paths()
     fe = load_cosyvoice3().frontend
@@ -56,7 +59,7 @@ def main() -> None:
         "providers": fe.speech_tokenizer_session.get_providers(),
         "gpu": torch.cuda.get_device_name(0),
     }
-    for subset in args.subsets:
+    for subset in args.subsets or SUBSETS:
         items = list_wavs(subset, paths)[: args.limit]
         out = paths["token_root"] / subset
         out.mkdir(parents=True, exist_ok=True)
