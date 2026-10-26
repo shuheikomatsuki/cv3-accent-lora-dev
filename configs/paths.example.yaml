@@ -1,0 +1,7 @@
+# Copy to paths.local.yaml (gitignored) and edit for your machine.
+cosyvoice_model: /path/to/pretrained_models/Fun-CosyVoice3-0.5B
+jvs_root: /path/to/jvs_ver1
+jsut_root: /path/to/jsut_ver1.1
+uttertune_root: /path/to/UtterTune
+token_root: /path/to/features/cv3_speech_token
+work_root: /path/to/cv3lora_work

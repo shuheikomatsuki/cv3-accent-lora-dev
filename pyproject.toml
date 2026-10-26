@@ -1,0 +1,78 @@
+[project]
+name = "cv3lora"
+version = "0.1.0"
+description = "Local reading/accent control for CosyVoice 3 with LoRA"
+readme = "README.md"
+requires-python = "==3.10.*"
+# Versions follow the stack verified on helen (RTX PRO 4000 Blackwell, sm_120).
+# CosyVoice's own requirements pin torch 2.3.1 / onnxruntime-gpu 1.18.0, which do not run on sm_120.
+dependencies = [
+    "torch==2.7.1",
+    "torchaudio==2.7.1",
+    "onnxruntime-gpu==1.22.0",
+    "onnx==1.16.0",
+    "numpy==1.26.4",
+    "transformers==4.51.3",
+    "openai-whisper==20231117",
+    "conformer==0.3.2",
+    "diffusers==0.29.0",
+    "x-transformers==2.11.24",
+    "hydra-core==1.3.2",
+    "hyperpyyaml==1.2.3",
+    "omegaconf==2.3.0",
+    "lightning==2.2.4",
+    "inflect==7.3.1",
+    "librosa==0.10.2",
+    "soundfile==0.12.1",
+    "pyworld==0.3.4",
+    "modelscope==1.20.0",
+    "wetext==0.0.4",
+    "protobuf==4.25.0",
+    "pyarrow==18.1.0",
+    "pydantic==2.7.0",
+    "networkx==3.1",
+    "matplotlib==3.7.5",
+    "rich==13.7.1",
+    "tensorboard==2.14.0",
+    "gdown==5.1.0",
+    "wget==3.2",
+    "safetensors==0.8.0",
+    "pyyaml",
+    "pandas",
+    "tqdm",
+    # Matcha-TTS and whisper import pkg_resources at runtime.
+    "setuptools<81",
+]
+
+[dependency-groups]
+dev = ["pytest", "ruff"]
+
+[tool.uv]
+package = true
+# openai-whisper 20231117 declares triton<3, which conflicts with torch 2.7.1 (triton 3.3.1).
+# Only whisper's word-timing kernels use triton; log-mel does not.
+override-dependencies = ["triton==3.3.1; sys_platform == 'linux'"]
+
+# openai-whisper 20231117 imports pkg_resources at build time (removed in setuptools 81).
+[tool.uv.extra-build-dependencies]
+openai-whisper = ["setuptools<81"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchaudio = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cv3lora"]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["third_party"]
