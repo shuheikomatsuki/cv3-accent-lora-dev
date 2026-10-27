@@ -232,7 +232,7 @@ text	corpus	subset	speaker	file_id
 <PHON_START>ヨ'セー<PHON_END>は、自分の理想の追求に費やしたい。	jsut	basic5000		BASIC5000_0231
 車椅子の<PHON_START>ジョセー<PHON_END>、スーパーに立てこもる。	jsut	basic5000		BASIC5000_0232
 母が<PHON_START>チューショク<PHON_END>に、私達にチーズサンドを作ってくれた。	jsut	basic5000		BASIC5000_0233
-１月３０日、<PHON_START>サ'ンジュー/イチニチ<PHON_END>、葬式のため休みます。	jsut	basic5000		BASIC5000_0234
+１月３０日、<PHON_START>サ'ンジュー/イチニチ<PHON_END>は、葬式のため休みます。	jsut	basic5000		BASIC5000_0234
 <PHON_START>ハ'ハ<PHON_END>は私の望むものは、何でも言わなくてもかなえてくれる。	jsut	basic5000		BASIC5000_0235
 母にこの<PHON_START>セ'ーター<PHON_END>をつくろってもらった。	jsut	basic5000		BASIC5000_0236
 <PHON_START>オタ'ヨリ<PHON_END>、楽しみにお待ちしております。	jsut	basic5000		BASIC5000_0237
@@ -374,7 +374,7 @@ text	corpus	subset	speaker	file_id
 <PHON_START>ベ'ッド<PHON_END>での煙草を禁ずる、厳しい規則がある。	jsut	basic5000		BASIC5000_0373
 ベニヤ板で十分だとのこと、教えられたとおり、ベニヤ板で作る<PHON_START>コト'<PHON_END>にします。	jsut	basic5000		BASIC5000_0374
 ベビーシッターは、赤ん坊に<PHON_START>ウタ<PHON_END>を歌って寝付かせようとした。	jsut	basic5000		BASIC5000_0375
-移転にともない、５月３０日、<PHON_START>サ'ンジュー/イチニチ<PHON_END>、休業いたします。	jsut	basic5000		BASIC5000_0376
+移転にともない、５月３０日、<PHON_START>サ'ンジュー/イチニチ<PHON_END>は、休業いたします。	jsut	basic5000		BASIC5000_0376
 道徳的な<PHON_START>ヒト<PHON_END>は、うそをついたりだましたり、盗んだりしない。	jsut	basic5000		BASIC5000_0377
 ベルが鳴ると、すぐに<PHON_START>センセ'ー<PHON_END>が入ってきた。	jsut	basic5000		BASIC5000_0378
 昨晩、<PHON_START>カ'レ<PHON_END>はひょっこり私を訪ねてきた。	jsut	basic5000		BASIC5000_0379
@@ -839,7 +839,7 @@ text	corpus	subset	speaker	file_id
 <PHON_START>オ'ージョ<PHON_END>は、彼を見て笑わずにいられなかった。	jsut	basic5000		BASIC5000_0838
 硬貨の価値は、使われた<PHON_START>キ'ンゾク<PHON_END>の重さによって決まった。	jsut	basic5000		BASIC5000_0839
 <PHON_START>クロダショーガ'ッコー<PHON_END>では、決められた時刻に集まって、集団登校します。	jsut	basic5000		BASIC5000_0840
-夜１０時以後に人<PHON_START>デンワ<PHON_END>話するには、避けるべきだ。	jsut	basic5000		BASIC5000_0841
+夜１０時以後に人に<PHON_START>デンワ<PHON_END>するには、避けるべきだ。	jsut	basic5000		BASIC5000_0841
 例によって、彼女はまた、<PHON_START>ジカン/ド'ーリ<PHON_END>には現われなかった。	jsut	basic5000		BASIC5000_0842
 <PHON_START>キョ'ーキ<PHON_END>の状態のさいに、善悪を区別させようとしても無駄である。	jsut	basic5000		BASIC5000_0843
 世の中に<PHON_START>ナットク<PHON_END>できるものなんてないよ。	jsut	basic5000		BASIC5000_0844
@@ -910,7 +910,7 @@ text	corpus	subset	speaker	file_id
 無神論者が司教の<PHON_START>セツメー<PHON_END>をあざけった。	jsut	basic5000		BASIC5000_0909
 辰雄は、<PHON_START>コーク'ーキ<PHON_END>の着陸装置を見るのが好きです。	jsut	basic5000		BASIC5000_0910
 米国の豊かさは、<PHON_START>ハッテントジョ'ーコク<PHON_END>の貧しさと比較対照される。	jsut	basic5000		BASIC5000_0911
-４１８号室に行く途中、彼は、次<PHON_START>ツギ<PHON_END>ように思い始めました。	jsut	basic5000		BASIC5000_0912
+４１８号室に行く途中、彼は、<PHON_START>ツギ<PHON_END>のように思い始めました。	jsut	basic5000		BASIC5000_0912
 こまったときの用意に、少しはとっておく<PHON_START>ヒツヨー<PHON_END>がある。	jsut	basic5000		BASIC5000_0913
 こってり、<PHON_START>アイツ<PHON_END>の油を絞ってやった。	jsut	basic5000		BASIC5000_0914
 こちらの手紙を受け取ったという<PHON_START>ツーチ<PHON_END>が来た。	jsut	basic5000		BASIC5000_0915
@@ -985,7 +985,7 @@ text	corpus	subset	speaker	file_id
 ソニーは、世界中、<PHON_START>ダレ<PHON_END>でも知っている名前だ。	jsut	basic5000		BASIC5000_0984
 御社のお考えを、<PHON_START>サキ<PHON_END>におっしゃってください。	jsut	basic5000		BASIC5000_0985
 ソレノイドへの突入電流で、ノイズが<PHON_START>ハッセー<PHON_END>します。	jsut	basic5000		BASIC5000_0986
-縦横８フィートの部屋の面積は、<PHON_START>ロクジューヨンヘーホーフィ'ート<PHON_END>ある。	jsut	basic5000		BASIC5000_0987
+縦横８フィートの部屋の面積は、<PHON_START>ロクジューヨンヘーホーフィ'ート<PHON_END>である。	jsut	basic5000		BASIC5000_0987
 <PHON_START>ド'クショ<PHON_END>が嫌いというわけではなく、時間が無いのだ。	jsut	basic5000		BASIC5000_0988
 編集者、兼、出版社である人は、私の<PHON_START>イト'コ<PHON_END>です。	jsut	basic5000		BASIC5000_0989
 大西洋は、<PHON_START>アメリカ<PHON_END>をヨーロッパから切り離している。	jsut	basic5000		BASIC5000_0990
@@ -1121,7 +1121,7 @@ text	corpus	subset	speaker	file_id
 １６０３年、ジェームズ一世が政権の座についた<PHON_START>ト'キ<PHON_END>、フットボールは再び許可されたのです。	jsut	basic5000		BASIC5000_1120
 １５種類以上のパイを、<PHON_START>ゴヨ'ーイ<PHON_END>しています。	jsut	basic5000		BASIC5000_1121
 ３角形の<PHON_START>ス'ベテ<PHON_END>の角の和は、１８０度に等しい。	jsut	basic5000		BASIC5000_1122
-１９５８年、その記念碑は、広島<PHON_START>ヒロシマ/ヘーワ/コ'ーエン<PHON_END>てられた。	jsut	basic5000		BASIC5000_1123
+１９５８年、その記念碑は、<PHON_START>ヒロシマ/ヘーワ/コ'ーエン<PHON_END>に建てられた。	jsut	basic5000		BASIC5000_1123
 <PHON_START>セ'ン/ハッピャク/ゴジューサ'ンネン<PHON_END>、ペリーは、日本にアメリカへの門戸を開くように要求した。	jsut	basic5000		BASIC5000_1124
 <PHON_START>ムスメ<PHON_END>は、妻が着ていたドレスが着られるようになった。	jsut	basic5000		BASIC5000_1125
 娘の歯並びを、<PHON_START>キョーセー<PHON_END>していただきたいのです。	jsut	basic5000		BASIC5000_1126
@@ -1458,7 +1458,7 @@ text	corpus	subset	speaker	file_id
 母系の祖母は、その<PHON_START>キューシキ<PHON_END>のドレスを着ることに固執する。	jsut	basic5000		BASIC5000_1457
 ヒューズさん、ピーター・<PHON_START>ブラ'ウン<PHON_END>です。	jsut	basic5000		BASIC5000_1458
 ６０にするためには、<PHON_START>ジューナ'ナ<PHON_END>に何を足せばよいの。	jsut	basic5000		BASIC5000_1459
-６５歳以上の人たちは、政<PHON_START>セ'ーフ<PHON_END>ら年金を受けている。	jsut	basic5000		BASIC5000_1460
+６５歳以上の人たちは、<PHON_START>セ'ーフ<PHON_END>から年金を受けている。	jsut	basic5000		BASIC5000_1460
 <PHON_START>ヒヨコ<PHON_END>がえさを探して、地面をつついている。	jsut	basic5000		BASIC5000_1461
 ヒルトン氏は、家を売りたくなって、<PHON_START>シンブン<PHON_END>に広告をだした。	jsut	basic5000		BASIC5000_1462
 ヒンギスが、<PHON_START>イッカ'イセン/ハイタイ<PHON_END>の大番狂わせ。	jsut	basic5000		BASIC5000_1463
@@ -1639,7 +1639,7 @@ text	corpus	subset	speaker	file_id
 医療費、年金給付の、抑制策の<PHON_START>キメテ<PHON_END>はないといえよう。	jsut	basic5000		BASIC5000_1638
 <PHON_START>ネンリョ'ー<PHON_END>としては、石油が石炭に代わりつつあった。	jsut	basic5000		BASIC5000_1639
 <PHON_START>ミ'ブリ<PHON_END>もコミュニケーションの、もう一つの方法である。	jsut	basic5000		BASIC5000_1640
-内線２１４に出る人なら、誰<PHON_START>ダ'レ<PHON_END>も構いません。	jsut	basic5000		BASIC5000_1641
+内線２１４に出る人なら、<PHON_START>ダ'レ<PHON_END>でも構いません。	jsut	basic5000		BASIC5000_1641
 互いに心を許しあうといえるほどの<PHON_START>ナ'カ<PHON_END>となった。	jsut	basic5000		BASIC5000_1642
 周波数の平均値は、振り幅の<PHON_START>ゾーダイ<PHON_END>にしたがって減じる。	jsut	basic5000		BASIC5000_1643
 部活のかけもち、<PHON_START>タイヘン<PHON_END>だと思うけどがんばれよ。	jsut	basic5000		BASIC5000_1644
@@ -1886,7 +1886,7 @@ text	corpus	subset	speaker	file_id
 <PHON_START>マオ'ー<PHON_END>は、ついに気を失って、どうと倒れた。	jsut	basic5000		BASIC5000_1885
 馬が哺乳動物であると同様、鯨も、<PHON_START>ホニュー/ド'ーブツ<PHON_END>である。	jsut	basic5000		BASIC5000_1886
 電話が現代に欠かせないものである<PHON_START>コト<PHON_END>は、ほぼ否定できません。	jsut	basic5000		BASIC5000_1887
-針は、中心を、一時間に、１０回転<PHON_START>ワリアイ<PHON_END>合で回る。	jsut	basic5000		BASIC5000_1888
+針は、中心を、一時間に、１０回転の<PHON_START>ワリアイ<PHON_END>で回る。	jsut	basic5000		BASIC5000_1888
 <PHON_START>ハ'リ<PHON_END>の落ちる音も聞こえるほどの静けさだ。	jsut	basic5000		BASIC5000_1889
 針に糸を通す<PHON_START>コト<PHON_END>ができないので、縫い物は好きではありません。	jsut	basic5000		BASIC5000_1890
 <PHON_START>ヨネン<PHON_END>ほど前に、アキレス腱が痛くなり、アキレス腱炎といわれました。	jsut	basic5000		BASIC5000_1891
@@ -2117,7 +2117,7 @@ text	corpus	subset	speaker	file_id
 <PHON_START>カワゴエ<PHON_END>の山車は、いわゆる鉾山車と呼ばれる形で、車輪が３つ、もしくは、４つ付いています。	jsut	basic5000		BASIC5000_2116
 <PHON_START>カゼ<PHON_END>やら雨やらで、その試合はさんざんだった。	jsut	basic5000		BASIC5000_2117
 <PHON_START>ゲンジョー<PHON_END>では、私たちは降参するしかない。	jsut	basic5000		BASIC5000_2118
-遺憾ながら、２月２７日のお約束を、守るこ<PHON_START>コト<PHON_END>出来ません。	jsut	basic5000		BASIC5000_2119
+遺憾ながら、２月２７日のお約束を、守る<PHON_START>コト<PHON_END>が出来ません。	jsut	basic5000		BASIC5000_2119
 コンサートにあんなに多くの<PHON_START>ヒト<PHON_END>がいるのを見て、驚いた。	jsut	basic5000		BASIC5000_2120
 死傷者は、合計、<PHON_START>イチ<PHON_END>、０００名となったということだ。	jsut	basic5000		BASIC5000_2121
 久美は、彼女の<PHON_START>ク'ラブ<PHON_END>について話しませんでした。	jsut	basic5000		BASIC5000_2122
@@ -2252,7 +2252,7 @@ text	corpus	subset	speaker	file_id
 <PHON_START>マドガ'ラス<PHON_END>が割れていたので、その部屋を、暖かくしておけなかった。	jsut	basic5000		BASIC5000_2251
 <PHON_START>ゲンソク<PHON_END>として、客車に駐車場がなくてはならないが、実際にはあり得ない。	jsut	basic5000		BASIC5000_2252
 <PHON_START>ラ'ーク/センセ'ー<PHON_END>がピアノを弾き、子供達が歌いました。	jsut	basic5000		BASIC5000_2253
-２５歳までに、彼女は五<PHON_START>イツ'ツ<PHON_END>異なる国で暮らしてきた。	jsut	basic5000		BASIC5000_2254
+２５歳までに、彼女は<PHON_START>イツ'ツ<PHON_END>の異なる国で暮らしてきた。	jsut	basic5000		BASIC5000_2254
 <PHON_START>ニヒャク/ニ'ジュー/ロクビン<PHON_END>は、１０時３０分に離陸します。	jsut	basic5000		BASIC5000_2255
 <PHON_START>ハナ'ラビ<PHON_END>をきちんと直していただきたいのですが。	jsut	basic5000		BASIC5000_2256
 <PHON_START>ニジュッチ'ーム<PHON_END>がトーナメントに出場した。	jsut	basic5000		BASIC5000_2257
@@ -2342,15 +2342,15 @@ text	corpus	subset	speaker	file_id
 <PHON_START>タンソハイシュツ'リョウ<PHON_END>の変動が、以下のグラフに描かれている。	jsut	basic5000		BASIC5000_2341
 通い妻とは名前の<PHON_START>トーリ<PHON_END>、妻が夫の元に通う、結婚形態の事である。	jsut	basic5000		BASIC5000_2342
 照明は、ツマミ一つで光量を変えられるようになっていて、好きな明るさを、演出出来る<PHON_START>ヨ'ー<PHON_END>になっている。	jsut	basic5000		BASIC5000_2343
-３４５型は、良い状態<PHON_START>ジョータイ<PHON_END>け取りました。	jsut	basic5000		BASIC5000_2344
+３４５型は、良い<PHON_START>ジョータイ<PHON_END>で受け取りました。	jsut	basic5000		BASIC5000_2344
 <PHON_START>オンドリ<PHON_END>よりも、めんどりの方が、大声で鳴く家は、悲しい家だ。	jsut	basic5000		BASIC5000_2345
-３６０号室の合<PHON_START>アイカギ<PHON_END>、貸していただきませんか。	jsut	basic5000		BASIC5000_2346
-３１８号室のお<PHON_START>オキャク/サン<PHON_END>、持って行ってあげなさい。	jsut	basic5000		BASIC5000_2347
+３６０号室の<PHON_START>アイカギ<PHON_END>を、貸していただきませんか。	jsut	basic5000		BASIC5000_2346
+３１８号室の<PHON_START>オキャク/サン<PHON_END>に、持って行ってあげなさい。	jsut	basic5000		BASIC5000_2347
 <PHON_START>サンジュ'ーニチ<PHON_END>の予約を確認したいのですが。	jsut	basic5000		BASIC5000_2348
 <PHON_START>サ'ンジュー/サン/ゲ'ート<PHON_END>へは、どうやって行けばいいですか。	jsut	basic5000		BASIC5000_2349
 中立の国が、その論争の解決に貢献する<PHON_START>コト<PHON_END>が求められていた。	jsut	basic5000		BASIC5000_2350
 単語の意味がわからなければ、<PHON_START>ジ'ショ<PHON_END>で調べなさい。	jsut	basic5000		BASIC5000_2351
-３８１日間、モントゴメリーのバスは、ほとんど空っぽの状態で、路線を往復<PHON_START>オーフク<PHON_END>。	jsut	basic5000		BASIC5000_2352
+３８１日間、モントゴメリーのバスは、ほとんど空っぽの状態で、路線を<PHON_START>オーフク<PHON_END>した。	jsut	basic5000		BASIC5000_2352
 <PHON_START>オメ'ーラ/アイルランド'ジン<PHON_END>は、みんな飲兵衛らしいじゃねーか。	jsut	basic5000		BASIC5000_2353
 <PHON_START>オモ'チャ<PHON_END>の汽車は、部屋の中をぐるぐる走った。	jsut	basic5000		BASIC5000_2354
 おやおや、食事の途中に<PHON_START>セ'キ<PHON_END>を立つとは、マナーに反しますね。	jsut	basic5000		BASIC5000_2355
@@ -2428,7 +2428,7 @@ text	corpus	subset	speaker	file_id
 辛抱しなければ成功する<PHON_START>コト<PHON_END>はできない。	jsut	basic5000		BASIC5000_2427
 理想を絵に描いたような<PHON_START>ダンセー<PHON_END>だった。	jsut	basic5000		BASIC5000_2428
 <PHON_START>ワタシ/イ'ガイ<PHON_END>の誰もがそれを知っています。	jsut	basic5000		BASIC5000_2429
-協会は１９９０年に創<PHON_START>ソーリツ<PHON_END>れました。	jsut	basic5000		BASIC5000_2430
+協会は１９９０年に<PHON_START>ソーリツ<PHON_END>されました。	jsut	basic5000		BASIC5000_2430
 道という道は川から溢れだした<PHON_START>ミズ<PHON_END>で覆われていた。	jsut	basic5000		BASIC5000_2431
 <PHON_START>ミチ<PHON_END>に迷うといけないから、地図をもって行きなさい。	jsut	basic5000		BASIC5000_2432
 <PHON_START>ミチ<PHON_END>なりに進んで、三つ目の交差点を左に曲がって下さい。	jsut	basic5000		BASIC5000_2433
@@ -2488,7 +2488,7 @@ text	corpus	subset	speaker	file_id
 今に<PHON_START>ダレ<PHON_END>も相手にしてくれなくなるぞ。	jsut	basic5000		BASIC5000_2487
 今となっては私たちができることは<PHON_START>ホト'ンド<PHON_END>ありません。	jsut	basic5000		BASIC5000_2488
 今まで<PHON_START>シゴト<PHON_END>を見つけることができません。	jsut	basic5000		BASIC5000_2489
-５８１４を千の位に四捨<PHON_START>シ'シャゴニュー<PHON_END>ば何になりますか。	jsut	basic5000		BASIC5000_2490
+５８１４を千の位に<PHON_START>シ'シャゴニュー<PHON_END>すれば何になりますか。	jsut	basic5000		BASIC5000_2490
 報酬はよかった、そしてそのことが彼らがその研究に参加した<PHON_START>ユ'イイツ<PHON_END>の動機だった。	jsut	basic5000		BASIC5000_2491
 連邦政府の予算削減は社会保障の給付に<PHON_START>エーキョー<PHON_END>が及ぶでしょう。	jsut	basic5000		BASIC5000_2492
 <PHON_START>レンタ'カー<PHON_END>の乗り捨て料金はいくらだろう。	jsut	basic5000		BASIC5000_2493
