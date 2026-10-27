@@ -1,0 +1,14 @@
+{
+  "tag": "base",
+  "model_dir": "/workH/kmt/gr/models/CosyVoice/pretrained_models/Fun-CosyVoice3-0.5B",
+  "cosyvoice_commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+  "dtype": "fp32",
+  "prefix": "You are a helpful assistant.<|endofprompt|>",
+  "token_root": "/workH/kmt/gr/features/cv3_speech_token",
+  "split_seed": 20261027,
+  "n_utts": 1666,
+  "compute_s": 19.7,
+  "date": "2026-10-27T11:38:13"
+}
