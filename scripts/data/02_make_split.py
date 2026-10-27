@@ -21,6 +21,7 @@ import json
 import random
 from collections import Counter, defaultdict
 
+from cv3lora.manifest import load_manifest
 from cv3lora.paths import REPO, load_paths
 
 SEED = 20261027
@@ -29,18 +30,12 @@ N_DEV, N_AUX = 250, 250
 N_DIAG = 5
 
 
-def utt_id(r: dict) -> str:
-    speaker = r["speaker"] or "jsut"
-    return f"{speaker}_{r['subset']}_{r['file_id']}"
-
-
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=SEED)
     args = ap.parse_args()
     paths = load_paths()
-    with open(paths["uttertune_root"] / "data/train/jsutjvs_manifest.tsv") as f:
-        rows = list(csv.DictReader(f, delimiter="\t"))
+    rows = load_manifest()
 
     # Speakers
     gender = {}
@@ -86,7 +81,7 @@ def main() -> None:
             b = int(r["file_id"] in diag)
             held = r["speaker"] and role[r["speaker"]] != "train"
             s = "heldout_spk" if held else "diag_b" if b else "train"
-        out.append([utt_id(r), r["corpus"], r["subset"], r["speaker"], r["file_id"], s, b])
+        out.append([r["id"], r["corpus"], r["subset"], r["speaker"], r["file_id"], s, b])
     counts = Counter(o[5] for o in out)
 
     d = REPO / "data/splits"

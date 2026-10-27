@@ -1,0 +1,431 @@
+id	check	detail
+jsut_basic5000_BASIC5000_0250	duration_outlier	0.211 s/mora, z=6.2
+jsut_basic5000_BASIC5000_0407	duration_outlier	0.221 s/mora, z=7.1
+jsut_basic5000_BASIC5000_0499	duration_outlier	0.204 s/mora, z=5.5
+jsut_basic5000_BASIC5000_0583	duration_outlier	0.201 s/mora, z=5.3
+jsut_basic5000_BASIC5000_0585	duration_outlier	0.219 s/mora, z=6.9
+jsut_basic5000_BASIC5000_0919	duration_outlier	0.204 s/mora, z=5.5
+jsut_basic5000_BASIC5000_1362	duration_outlier	0.200 s/mora, z=5.1
+jsut_basic5000_BASIC5000_1461	duration_outlier	0.201 s/mora, z=5.3
+jsut_basic5000_BASIC5000_1570	duration_outlier	0.202 s/mora, z=5.4
+jsut_basic5000_BASIC5000_1741	duration_outlier	0.203 s/mora, z=5.4
+jsut_basic5000_BASIC5000_1922	duration_outlier	0.223 s/mora, z=7.3
+jsut_basic5000_BASIC5000_2006	duration_outlier	0.269 s/mora, z=11.5
+jsut_basic5000_BASIC5000_2637	duration_outlier	0.228 s/mora, z=7.7
+jsut_basic5000_BASIC5000_2641	duration_outlier	0.199 s/mora, z=5.0
+jsut_basic5000_BASIC5000_3014	duration_outlier	0.200 s/mora, z=5.1
+jsut_basic5000_BASIC5000_3109	duration_outlier	0.212 s/mora, z=6.3
+jsut_basic5000_BASIC5000_3412	duration_outlier	0.205 s/mora, z=5.6
+jsut_basic5000_BASIC5000_3429	duration_outlier	0.208 s/mora, z=5.9
+jsut_basic5000_BASIC5000_3483	duration_outlier	0.208 s/mora, z=5.8
+jsut_basic5000_BASIC5000_3489	duration_outlier	0.206 s/mora, z=5.7
+jsut_basic5000_BASIC5000_3678	duration_outlier	0.220 s/mora, z=7.0
+jsut_basic5000_BASIC5000_4107	duration_outlier	0.248 s/mora, z=9.5
+jsut_basic5000_BASIC5000_4437	duration_outlier	0.208 s/mora, z=5.9
+jsut_basic5000_BASIC5000_4622	duration_outlier	0.208 s/mora, z=5.9
+jsut_basic5000_BASIC5000_4641	duration_outlier	0.206 s/mora, z=5.7
+jsut_basic5000_BASIC5000_4692	duration_outlier	0.221 s/mora, z=7.1
+jsut_basic5000_BASIC5000_4840	duration_outlier	0.207 s/mora, z=5.8
+jsut_basic5000_BASIC5000_4870	duration_outlier	0.260 s/mora, z=10.7
+jsut_basic5000_BASIC5000_4884	duration_outlier	0.199 s/mora, z=5.0
+jsut_basic5000_BASIC5000_4897	duration_outlier	0.208 s/mora, z=5.9
+jsut_basic5000_BASIC5000_4908	duration_outlier	0.213 s/mora, z=6.4
+jsut_basic5000_BASIC5000_4913	duration_outlier	0.256 s/mora, z=10.3
+jsut_basic5000_BASIC5000_4923	duration_outlier	0.200 s/mora, z=5.1
+jsut_basic5000_BASIC5000_4941	duration_outlier	0.265 s/mora, z=11.1
+jsut_basic5000_BASIC5000_4944	duration_outlier	0.201 s/mora, z=5.3
+jsut_basic5000_BASIC5000_4946	duration_outlier	0.213 s/mora, z=6.4
+jsut_basic5000_BASIC5000_4948	duration_outlier	0.207 s/mora, z=5.8
+jsut_basic5000_BASIC5000_4950	duration_outlier	0.223 s/mora, z=7.3
+jsut_basic5000_BASIC5000_4960	duration_outlier	0.208 s/mora, z=5.9
+jsut_basic5000_BASIC5000_4968	duration_outlier	0.245 s/mora, z=9.3
+jvs009_parallel100_VOICEACTRESS100_095	duration_outlier	0.59 s, z=-11.3 among 100 speakers
+jvs017_parallel100_VOICEACTRESS100_082	duration_outlier	11.99 s, z=6.9 among 100 speakers
+jvs018_parallel100_VOICEACTRESS100_072	duration_outlier	13.49 s, z=8.3 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_001	duration_outlier	13.18 s, z=6.6 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_004	duration_outlier	8.79 s, z=5.3 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_006	duration_outlier	7.10 s, z=7.0 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_011	duration_outlier	10.13 s, z=5.2 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_014	duration_outlier	4.99 s, z=8.7 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_017	duration_outlier	8.92 s, z=5.1 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_018	duration_outlier	11.82 s, z=7.1 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_019	duration_outlier	11.75 s, z=5.4 among 99 speakers
+jvs035_parallel100_VOICEACTRESS100_033	duration_outlier	6.19 s, z=6.5 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_034	duration_outlier	7.00 s, z=8.2 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_053	duration_outlier	9.44 s, z=5.6 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_055	duration_outlier	6.85 s, z=8.5 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_057	duration_outlier	7.87 s, z=5.1 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_059	duration_outlier	9.50 s, z=5.2 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_074	duration_outlier	8.23 s, z=5.3 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_080	duration_outlier	10.58 s, z=5.3 among 100 speakers
+jvs035_parallel100_VOICEACTRESS100_081	duration_outlier	13.27 s, z=5.1 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_006	duration_outlier	6.61 s, z=5.6 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_014	duration_outlier	5.67 s, z=12.1 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_017	duration_outlier	9.02 s, z=5.4 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_025	duration_outlier	6.72 s, z=5.1 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_033	duration_outlier	5.85 s, z=5.5 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_034	duration_outlier	6.34 s, z=6.0 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_055	duration_outlier	6.08 s, z=6.3 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_057	duration_outlier	10.40 s, z=10.8 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_063	duration_outlier	7.17 s, z=5.5 among 100 speakers
+jvs036_parallel100_VOICEACTRESS100_071	duration_outlier	10.11 s, z=5.1 among 100 speakers
+jvs038_parallel100_VOICEACTRESS100_006	duration_outlier	7.37 s, z=7.8 among 100 speakers
+jvs047_parallel100_VOICEACTRESS100_085	duration_outlier	2.82 s, z=-8.4 among 100 speakers
+jvs051_parallel100_VOICEACTRESS100_025	duration_outlier	7.15 s, z=6.3 among 100 speakers
+jvs055_parallel100_VOICEACTRESS100_099	duration_outlier	9.48 s, z=6.9 among 100 speakers
+jvs058_parallel100_VOICEACTRESS100_014	duration_outlier	9.96 s, z=33.9 among 100 speakers
+jvs058_parallel100_VOICEACTRESS100_021	duration_outlier	14.20 s, z=12.8 among 100 speakers
+jvs058_parallel100_VOICEACTRESS100_022	duration_outlier	7.43 s, z=-5.0 among 100 speakers
+jvs059_parallel100_VOICEACTRESS100_061	duration_outlier	12.16 s, z=6.6 among 100 speakers
+jvs059_parallel100_VOICEACTRESS100_064	duration_outlier	8.61 s, z=8.0 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_005	duration_outlier	18.88 s, z=6.2 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_008	duration_outlier	11.55 s, z=5.1 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_010	duration_outlier	7.79 s, z=6.9 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_015	duration_outlier	7.55 s, z=5.3 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_016	duration_outlier	8.38 s, z=5.4 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_020	duration_outlier	10.46 s, z=5.4 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_021	duration_outlier	10.78 s, z=6.5 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_022	duration_outlier	20.91 s, z=5.6 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_023	duration_outlier	10.94 s, z=5.6 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_027	duration_outlier	10.95 s, z=5.1 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_028	duration_outlier	15.40 s, z=5.5 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_029	duration_outlier	12.79 s, z=5.2 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_032	duration_outlier	14.51 s, z=5.1 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_038	duration_outlier	10.64 s, z=5.4 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_044	duration_outlier	15.34 s, z=5.0 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_056	duration_outlier	13.15 s, z=5.4 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_062	duration_outlier	11.97 s, z=6.3 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_089	duration_outlier	11.48 s, z=5.6 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_090	duration_outlier	11.41 s, z=5.3 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_092	duration_outlier	11.78 s, z=5.1 among 100 speakers
+jvs071_parallel100_VOICEACTRESS100_093	duration_outlier	15.74 s, z=5.5 among 100 speakers
+jvs083_parallel100_VOICEACTRESS100_014	duration_outlier	5.29 s, z=10.2 among 100 speakers
+jvs083_parallel100_VOICEACTRESS100_040	duration_outlier	7.34 s, z=5.4 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_003	duration_outlier	9.62 s, z=6.8 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_004	duration_outlier	9.58 s, z=7.1 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_006	duration_outlier	7.53 s, z=8.2 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_008	duration_outlier	12.19 s, z=6.2 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_010	duration_outlier	8.38 s, z=8.6 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_011	duration_outlier	10.21 s, z=5.3 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_012	duration_outlier	9.94 s, z=6.3 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_013	duration_outlier	8.70 s, z=6.5 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_014	duration_outlier	6.41 s, z=15.9 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_015	duration_outlier	9.07 s, z=9.4 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_016	duration_outlier	9.01 s, z=6.9 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_017	duration_outlier	10.58 s, z=8.7 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_018	duration_outlier	12.59 s, z=8.3 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_019	duration_outlier	12.19 s, z=6.1 among 99 speakers
+jvs084_parallel100_VOICEACTRESS100_020	duration_outlier	10.68 s, z=5.8 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_021	duration_outlier	11.63 s, z=8.1 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_025	duration_outlier	7.58 s, z=7.6 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_026	duration_outlier	7.57 s, z=6.0 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_029	duration_outlier	12.67 s, z=5.0 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_030	duration_outlier	9.60 s, z=7.6 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_031	duration_outlier	8.94 s, z=8.7 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_033	duration_outlier	6.90 s, z=8.8 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_034	duration_outlier	6.68 s, z=7.1 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_040	duration_outlier	7.50 s, z=5.8 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_042	duration_outlier	8.64 s, z=6.7 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_043	duration_outlier	11.58 s, z=5.9 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_045	duration_outlier	14.17 s, z=5.6 among 99 speakers
+jvs084_parallel100_VOICEACTRESS100_046	duration_outlier	10.99 s, z=7.2 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_049	duration_outlier	9.98 s, z=5.6 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_051	duration_outlier	10.00 s, z=7.7 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_055	duration_outlier	7.02 s, z=9.0 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_057	duration_outlier	8.67 s, z=6.8 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_058	duration_outlier	10.61 s, z=7.4 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_059	duration_outlier	12.20 s, z=10.9 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_060	duration_outlier	10.57 s, z=5.3 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_061	duration_outlier	11.18 s, z=5.2 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_063	duration_outlier	8.15 s, z=7.8 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_064	duration_outlier	9.25 s, z=9.8 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_068	duration_outlier	10.43 s, z=7.0 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_070	duration_outlier	12.04 s, z=5.9 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_071	duration_outlier	10.98 s, z=6.5 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_072	duration_outlier	11.81 s, z=5.9 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_074	duration_outlier	8.51 s, z=6.0 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_075	duration_outlier	10.34 s, z=6.3 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_091	duration_outlier	7.42 s, z=5.6 among 100 speakers
+jvs084_parallel100_VOICEACTRESS100_098	duration_outlier	10.34 s, z=6.3 among 100 speakers
+jvs098_parallel100_VOICEACTRESS100_060	duration_outlier	13.70 s, z=10.1 among 100 speakers
+jvs098_parallel100_VOICEACTRESS100_099	duration_outlier	9.56 s, z=7.1 among 100 speakers
+jsut_basic5000_BASIC5000_0133	jsut_label_text_differs	不活発な子供は、空想の世界に閉じこもる傾向がずっと高い。 -> 不活発な子供は、空想の世界に閉じこもる傾向がずっと強い。
+jsut_basic5000_BASIC5000_0157	jsut_label_text_differs	３番目に考慮すべき事柄は、カーペットの時代性である。 -> ３番目に考慮すべき事項は、カーペットの時代性である。
+jsut_basic5000_BASIC5000_0162	jsut_label_text_differs	民主主義では、国民は、直接政府の役人を選ぶ。 -> 民主主義では、国民は、直接政府の役人を呼ぶ。
+jsut_basic5000_BASIC5000_0193	jsut_label_text_differs	ご家族もごいっしょに連れてこられたのですか。 -> ご家族もいっしょに連れてこられたのですか。
+jsut_basic5000_BASIC5000_0257	jsut_label_text_differs	橋の上に立っている人を知っていますか。 -> 橋の上に立ってる人を知っていますか。
+jsut_basic5000_BASIC5000_0372	jsut_label_text_differs	ベティがパーティーに来た最初の女の子だった。 -> ベティーがパーティーに来た最初の女の子だった。
+jsut_basic5000_BASIC5000_0401	jsut_label_text_differs	検尿をマシンに入れるだけで、具合が悪いとこを診断して、対処法を教えてくれるんだ。 -> 検尿をマシンに入れるだけで、具合が悪いところを診断して、対処法を教えてくれるんだ。
+jsut_basic5000_BASIC5000_0490	jsut_label_text_differs	アテネへ向かう一隻の貨物船が、何の痕跡も残さずに、地中海で沈没した。 -> アテネへ向かう一艘の貨物船が、何の痕跡も残さずに、地中海で沈没した。
+jsut_basic5000_BASIC5000_0587	jsut_label_text_differs	ハチドリは、チョウと同じくらい小さい鳥です。 -> ハチドリは、チョウと同じぐらい小さい鳥です。
+jsut_basic5000_BASIC5000_0598	jsut_label_text_differs	南諸島のコミュニティの中には、まったくの正反対の血縁関係のパターンが、観察されるであろう。 -> 南諸島のコミュニティの中には、まったくの正反対の血縁関係のパターンが、観測されるであろう。
+jsut_basic5000_BASIC5000_0600	jsut_label_text_differs	理事会は、海外の持ち株を放棄することを議決しました。 -> 理事会は、海外の持ち株を放棄することを決議しました。
+jsut_basic5000_BASIC5000_0620	jsut_label_text_differs	仙台へ行って、とんぼ返りで戻ってきました。 -> 仙台へ行って、とんぼ返りで帰ってきました。
+jsut_basic5000_BASIC5000_0630	jsut_label_text_differs	私望んでいた地位を手に入れることができなかった。 -> 私望んでた地位を手に入れることができなかった。
+jsut_basic5000_BASIC5000_0712	jsut_label_text_differs	可算名詞か、不可算名詞か、どちらかを従えている表現を、２つ書け。 -> 可算名詞か、不可算名詞か、どちらかを従えてる表現を、２つ書け。
+jsut_basic5000_BASIC5000_0719	jsut_label_text_differs	罪の意識が、彼の顔にはっきり現れている。 -> 罪の意識が、彼の顔にははっきり現れている。
+jsut_basic5000_BASIC5000_0737	jsut_label_text_differs	貴女に大怪我をさせられたせいで、この子の夏休みの予定は、全部おじゃんになってしまったんですよ。 -> 彼女に大怪我をさせられたせいで、この子の夏休みの予定は、全部おじゃんになってしまったんですよ。
+jsut_basic5000_BASIC5000_0760	jsut_label_text_differs	途上国では、優れた技術者が、不足してる。 -> 途上国では、優れた技術者が、不足している。
+jsut_basic5000_BASIC5000_0792	jsut_label_text_differs	言語がどのように始まったのかについては、いくつも推論はあるが、実は、だれもあまり知らない。 -> 言語がどのように始まったかについては、いくつも推論はあるが、実は、だれもあまり知らない。
+jsut_basic5000_BASIC5000_0841	jsut_label_text_differs	夜１０時以後に人に電話するには、避けるべきだ。 -> 夜１０時以降に人に電話するには、避けるべきだ。
+jsut_basic5000_BASIC5000_0900	jsut_label_text_differs	栗鼠が激しい風に逆らって進すんでいた。 -> 栗鼠が激しい風に逆らって進んでいた。
+jsut_basic5000_BASIC5000_0951	jsut_label_text_differs	チップが、グラス一つの中の１０セントであれば、ウェイトレスは次の客に備えて、急いでテーブルを片付けようとしてグラスを持ち上げ、水がこぼれだし、事はおしまいということになろう。 -> チップが、グラスの一つの中の１０セントであれば、ウェイトレスは次の客に備えて、急いでテーブルを片付けようとしてグラスを持ち上げ、水がこぼれだし、事はおしまいということになろう。
+jsut_basic5000_BASIC5000_1005	jsut_label_text_differs	休暇を過ごすのに、私にはたくさんの金がかかります。 -> 休暇を過ごすのに、私はたくさんの金がかかります。
+jsut_basic5000_BASIC5000_1016	jsut_label_text_differs	モダンジャズに何を求めて聞けばいいのかわかると、私はそれを味わえるようになった。 -> モダンジャズに何を求めて聞けばよいのかわかると、私はそれを味わえるようになった。
+jsut_basic5000_BASIC5000_1051	jsut_label_text_differs	所属していた組織に対する、長期間にわたる忠勤ぶりにもかかわらず、かれが報われたのは、僅かな金額にすぎなかった。 -> 所属していた組織に対する、長時間にわたる忠勤ぶりにもかかわらず、かれが報われたのは、僅かな金額にすぎなかった。
+jsut_basic5000_BASIC5000_1069	jsut_label_text_differs	短剣だけで武装して、彼は攻撃してきた５人を皆、追い払った。 -> 短剣だけで武装して、彼は攻撃した５人を皆、追い払った。
+jsut_basic5000_BASIC5000_1080	jsut_label_text_differs	動詞には目的語をとらない自動詞と、目的語をとる他動詞があります。 -> 動詞には目的をとらない自動詞と、目的語をとる他動詞があります。
+jsut_basic5000_BASIC5000_1109	jsut_label_text_differs	偏頭痛がおこったときに対処するだけではなく、普段の生活のなかで、偏頭痛をなるべく防いでいくのも、大事なことです。 -> 偏頭痛がおこったときに対処するだけではなく、普段の生活のなかで、偏頭痛をなるべく防いでいくことも、大事なことです。
+jsut_basic5000_BASIC5000_1135	jsut_label_text_differs	窓側か通路側、どちらになさいますか。 -> 窓際か通路側、どちらになさいますか。
+jsut_basic5000_BASIC5000_1158	jsut_label_text_differs	綿密に言うと、彼の見解は、私のとはいくらか異なる。 -> 綿密に言うと、彼の会見は、私のとはいくらか異なる。
+jsut_basic5000_BASIC5000_1177	jsut_label_text_differs	税に関して言えば、それは魅力的な制度だ。 -> 貴婦人は急いで病院へ行き、そのまま診察室へと連れて行かれた。
+jsut_basic5000_BASIC5000_1178	jsut_label_text_differs	貴婦人は急いで病院へ行き、そのまま診察室へと連れて行かれた。 -> 吉雄は私がその箱を持ち上げるのを手伝ってくれた。
+jsut_basic5000_BASIC5000_1252	jsut_label_text_differs	川が氾濫していて、広い地域が水浸しになった。 -> 川が氾濫していて、広い水域が水浸しになった。
+jsut_basic5000_BASIC5000_1397	jsut_label_text_differs	両天びんにかけようたって、そうはいきませんよ。 -> 両天びんにかけようったって、そうはいきませんよ。
+jsut_basic5000_BASIC5000_1410	jsut_label_text_differs	音が大きい方が、がしがし仕事してるように見えるという人と、うるさいだけって言う人、いますよね。 -> 音が大きい方が、がしがし仕事しているように見えるという人と、うるさいだけって言う人、いますよね。
+jsut_basic5000_BASIC5000_1768	jsut_label_text_differs	よちよち歩きの幼児でもできるのだから、家族で楽しんでいただきたい。 -> よちよち歩きでの幼児でもできるのだから、家族で楽しんでいただきたい。
+jsut_basic5000_BASIC5000_1833	jsut_label_text_differs	入学試験に落ちないように、彼女は、一生懸命に勉強した。 -> 入学試験に落ちないように、彼女は、一所懸命に勉強した。
+jsut_basic5000_BASIC5000_1959	jsut_label_text_differs	人々は、広々とした庭園を、歩きまわった。 -> 人々は、広々とした農園を、歩きまわった。
+jsut_basic5000_BASIC5000_1965	jsut_label_text_differs	両家の何代にもわたる不和を解消するために、両家の指導者を会わせるべきだ。 -> 両家の何代にもわたる不和を解決するために、両家の指導者を会わせるべきだ。
+jsut_basic5000_BASIC5000_2037	jsut_label_text_differs	君らは、自らの責任において、自らの良心に照らし合わせ、決定を下さなければならない。 -> 君らは、自らの責任において、自らの良心に照らし合わせ、決定を下さなくてはならない。
+jsut_basic5000_BASIC5000_2082	jsut_label_text_differs	持てば持つほど、ますます欲しがるものだ。 -> 待てば待つほど、ますます欲しがるものだ。
+jsut_basic5000_BASIC5000_2142	jsut_label_text_differs	お巡りさん、この事故は、私とは関係ありませんよ。 -> お巡りさん、この事故は、私と関係ありませんよ。
+jsut_basic5000_BASIC5000_2167	jsut_label_text_differs	勤労によって、日本は、今日の日本になった。 -> 勤労によって、日本は、今の日本になった。
+jsut_basic5000_BASIC5000_2258	jsut_label_text_differs	２１２ー８３６ー１７２５に、指名通話をかけたいんだけど。 -> ２１２ー８３６ー１７２５に、指名電話をかけたいんだけど。
+jsut_basic5000_BASIC5000_2262	jsut_label_text_differs	僕疲れているし、それに試験が近づいてるんだ。 -> 僕疲れているし、それに試験が近づいているんだ。
+jsut_basic5000_BASIC5000_2273	jsut_label_text_differs	火が、めらめらと隣家に燃え移っていった。 -> 火が、めらめらと隣家に燃え移っていた。
+jsut_basic5000_BASIC5000_2279	jsut_label_text_differs	女店員は、私に、たくさんのネクタイを見せてくれたが、その中で、好きなのは１本もなかった。 -> 女店員は、私に、たくさんのネクタイを見せてくれたが、その中で、好きなものは１本もなかった。
+jsut_basic5000_BASIC5000_2280	jsut_label_text_differs	破滅への門は広く、破滅への道は広し。 -> 破滅の門は広く、破滅への道は広し。
+jsut_basic5000_BASIC5000_2293	jsut_label_text_differs	拷問にかけられて、彼は犯していない罪を認めた。 -> 拷問にかけられて、彼は犯してない罪を認めた。
+jsut_basic5000_BASIC5000_2475	jsut_label_text_differs	今しっかり勉強するのか君のためになる。 -> 今しっかり勉強するのが君のためになる。
+jsut_basic5000_BASIC5000_2593	jsut_label_text_differs	ゲイツ会長、広告収入をユーザーに還元する意向表明。 -> ゲイツ社長、広告収入をユーザーに還元する意向表明。
+jsut_basic5000_BASIC5000_2706	jsut_label_text_differs	恵一、天ぷら揚がったから、皿持って来い。 -> 恵一、天ぷらが揚がったから、皿持って来い。
+jsut_basic5000_BASIC5000_2710	jsut_label_text_differs	３隻の船が、女王から彼に与えられた。 -> ３叟の船が、女王から彼に与えられた。
+jsut_basic5000_BASIC5000_2760	jsut_label_text_differs	湖の上に、幾艘のボートがあった。 -> 湖の上に、幾艘かのボートがあった。
+jsut_basic5000_BASIC5000_2932	jsut_label_text_differs	あせって仕事を仕上げようとすれば、無用な間違いを犯す。 -> あさって仕事を仕上げようとすれば、無用な間違いを犯す。
+jsut_basic5000_BASIC5000_3179	jsut_label_text_differs	一見似たものに、繊毛粘液摂食というのもあり、こちらは、その摂食装置の表面に粘液を出し、それに吸着した微粒子を繊毛で集めて食べるものを指す。 -> 一見似たものに、繊毛粘液摂食というものもあり、こちらは、その摂食装置の表面に粘液を出し、それに吸着した微粒子と繊毛を集めて食べるものを指す。
+jsut_basic5000_BASIC5000_3192	jsut_label_text_differs	ハニーブラウンの毛色で手足が長く、お洒落やお化粧が大好き。 -> ハニーブラウンの毛色で手足が長く、お洒落なお化粧が大好き。
+jsut_basic5000_BASIC5000_3193	jsut_label_text_differs	争う中で神器が紛失、地脈の制御が乱れて重奏世界は崩壊した。 -> 争う中で神器が消失、地脈の制御が乱れて重奏世界は崩壊した。
+jsut_basic5000_BASIC5000_3236	jsut_label_text_differs	キャラクター自身の能力が高いほど、敵が強いほどに覚醒する確率が高まる。 -> キャラクター自身の能力が高いほど、敵が多いほどに覚醒する確率が高まる。
+jsut_basic5000_BASIC5000_3282	jsut_label_text_differs	特に首都ではしばしば反乱を起こし、ときには宰相を更迭させたり、君主を、廃位したりした。 -> 特に首都ではしばしば反乱を起こし、ときには宰相を更迭させたり、君主を、廃位させたりした。
+jsut_basic5000_BASIC5000_3284	jsut_label_text_differs	地方に赴任する官僚より、実務は胥吏が握っていることも多かった。 -> 地方に赴任する官僚より、実務は官吏が握っていることも多かった。
+jsut_basic5000_BASIC5000_3302	jsut_label_text_differs	しかし、現在では、動物界との系統関係は否定され、むしろ、単細胞藻類であ毛藻類、マラリア原虫を含むアピコンプレクサとごく近いことが分かっている。 -> しかし、現在では、動物界との系統関係は否定され、むしろ、単細胞藻類である毛藻類、マラリア原虫を含むアピコンプレクサとごく近いことが分かっている。
+jsut_basic5000_BASIC5000_3330	jsut_label_text_differs	配膳は、児童生徒による交代制により行われ、これを、給食当番という。 -> 配膳は、児童生徒による交代制に行われ、これを、給食当番という。
+jsut_basic5000_BASIC5000_3339	jsut_label_text_differs	小暑、あるいは大暑から立秋までの間が暑中で、暑中見舞いはこの期間内に送る。 -> 小暑、あるいは大暑から立春までの間が暑中で、暑中見舞いはこの期間内に送る。
+jsut_basic5000_BASIC5000_3357	jsut_label_text_differs	風で散らばった重要書類などを探し出す為の道具で、首から提げる箱形の機体と、先に円盤型のセンサーを付けた竿が、コードでつながった形状。 -> 風で散らばった重要書類などを探し出す為の道具で、首から提げる箱形の機体と、先に円盤型のセンサーを付けた竿が、コードでつながった状態。
+jsut_basic5000_BASIC5000_3364	jsut_label_text_differs	夏家店下層文化に比べると、恒久的な建築物が少なくなり、下層文化の建築物、またはその材料の流用が多くなる。 -> 下層文化に比べると、恒久的な建築物が少なくなり、下層文化の建築物、またはその材料の流用が多くなる。
+jsut_basic5000_BASIC5000_3365	jsut_label_text_differs	咽頭から主気管支までの太い気管が狭まることで、気流が乱れて生じる。 -> 咽頭から主気管支までの太い気管が挟まることで、気流が乱れて生じる。
+jsut_basic5000_BASIC5000_3370	jsut_label_text_differs	なお、小田急グループ全体としては、小田急電鉄沿線に、以下の事業者が線路を有している。 -> なお、小田急グルーブ全体としては、小田急電鉄沿線に、以下の事業者が線路を有している。
+jsut_basic5000_BASIC5000_3421	jsut_label_text_differs	陪臣の多くは卒身分だったが、大身の家臣の上級家臣は、侍身分であった。 -> 陪臣の多くは卒身分であったが、大身の家臣の上級家臣は、侍身分であった。
+jsut_basic5000_BASIC5000_3433	jsut_label_text_differs	墓所は館にあったというが、現存していない。 -> 墓は館にあったというが、現存していない。
+jsut_basic5000_BASIC5000_3435	jsut_label_text_differs	しかしこの日、自分のやったことがずっと気になっていて、それを償うつもりで、再現パーティーに出席した。 -> しかしこの日、自分のやったことがずっと気になっていて、それを償うつもりで、再現パーティーに出現した。
+jsut_basic5000_BASIC5000_3436	jsut_label_text_differs	喚起魔法では、弟の幹比古が勝っているといわれているが、兄弟仲は良好。 -> 喚起魔法では、弟が勝っているといわれているが、兄弟仲は良好。
+jsut_basic5000_BASIC5000_3442	jsut_label_text_differs	母親の食らった毒を薄めるため、妖怪鳥を使って、人間の血を大量に集めていた。 -> 母親の食らった毒を薄めるため、妖怪を使って、人間の血を大量に集めていた。
+jsut_basic5000_BASIC5000_3444	jsut_label_text_differs	ドライポイントの場合は、刷れば刷るほど、線の周辺の突起部が押さえつけられ、次第に線がつぶれてくる。 -> ドライポイントの場合は、刷れば刷るほど、線の周辺の突起物が押さえつけられ、次第に線がつぶれてくる。
+jsut_basic5000_BASIC5000_3449	jsut_label_text_differs	詰襟学生服やセーター、開襟白ワイシャツなど制服風のものを着ている。 -> 詰襟学生服やセーター、開襟白ワイシャツなどの制服風のものを着ている。
+jsut_basic5000_BASIC5000_3475	jsut_label_text_differs	しかし、万が一のために砂皿の身体に仕込んでいた内臓を停止させる特殊な発信機の存在を彼女に見抜かれた上、それを、逆に自身の体内に埋め込まれて死亡した。 -> しかし、万が一のために身体に仕込んでいた内臓を停止させる特殊な発信機の存在を彼女に見抜かれた上、それを、逆に自身の体内に埋め込まれて死亡した。
+jsut_basic5000_BASIC5000_3480	jsut_label_text_differs	しかし同時に、エドガーが完全なプリンスとして覚醒した時は、元々彼の持つ資質により、今までにない強大な支配力を持つプリンスになると危惧されている。 -> しかし同時に、エドガーが完全なプリンスとして覚醒した時は、元々彼の持つ資質により、今までにない強力な支配力を持つプリンスになると危惧されている。
+jsut_basic5000_BASIC5000_3492	jsut_label_text_differs	市販の乾燥剤は、塩化カルシウムを主体とし、空中の水分を吸収して生じる飽和水溶液が、下部の受器にたまるようになっている。 -> 市販の乾燥剤は、塩化カルシウムを主体とし、空中の水分を吸収して生じる飽和水溶液が、下部の受け皿にたまるようになっている。
+jsut_basic5000_BASIC5000_3496	jsut_label_text_differs	アーチャーを殺害しようと狙撃をした際に貫通をした弾が偶然、同じ射程にいた彼の息子に当たり殺害したことから、アーチャーの恨みを買い、追われることとなる。 -> アーチャーを殺害しようと狙撃をした際に貫通をした弾が偶然、同じ射程にいた彼の息子に当たり殺害したことから、アーチャーの恨みを買い、追われることになる。
+jsut_basic5000_BASIC5000_3548	jsut_label_text_differs	あと知識がない人にわかりやすく解説するのが、百科事典の志だと考えてます。 -> あと知識がない人にわかりやすく解説するのが、百科事典の志だと考えています。
+jsut_basic5000_BASIC5000_3572	jsut_label_text_differs	嘴は桃色で、基部は黒く、足も桃色を帯びている。 -> 唇は桃色で、基部は黒く、足も桃色を帯びている。
+jsut_basic5000_BASIC5000_3577	jsut_label_text_differs	あくまでもチャンスボタンは遊戯台での演出を楽しむためのものである。 -> あくまでもチャンスボタンは遊戯台での演出を楽しむものである。
+jsut_basic5000_BASIC5000_3637	jsut_label_text_differs	ぱっとしない毎日を過ごし、人生を悲観していたケイ少年が、その日あった嫌な出来事をすべて空想の妖怪の仕業にし、鬱憤を晴らすかのように書き溜めていた一冊の日記。 -> ぱっとしない毎日を過ごし、人生を悲観していたケイ少年が、その日あった嫌な出来事をすべて空想の妖怪の仕業にし、鬱憤を晴らすかのように書き留めていた一冊の日記。
+jsut_basic5000_BASIC5000_3676	jsut_label_text_differs	地獄の落ちた亡者を痛めつめることが仕事の公務員。 -> 地獄に落ちた亡者を痛めつけることが仕事の公務員。
+jsut_basic5000_BASIC5000_3679	jsut_label_text_differs	普通、字というときは本字のみを指すが、広義には小字や別字を含む。 -> 普通、字というときは本字のみを指すが、広義には字や別字を含む。
+jsut_basic5000_BASIC5000_3684	jsut_label_text_differs	一般的には、関節の動きを殺すために、関節で縛る、身体が動くことは結び目が緩むことにつながるので、出来る限り動かないように固定する、といった工夫が必要になる。 -> 一般的には、関節の動きを殺すために、関節で縛る、身体が動くことは結び目が緩むことにつながるので、出来る限り動かさないように固定する、といった工夫が必要になる。
+jsut_basic5000_BASIC5000_3704	jsut_label_text_differs	同地区には唐戸商店街があるが、近年閉店する店が増え、再開発によって盛況さを取り戻した海峡沿いとは対照的に、やや寂れた感じが漂う。 -> 同地区には唐戸商店街があるが、近年閉店する店が増え、再開発によって盛況さを取り戻した海峡沿いとは対照に、やや寂れた感じが漂う。
+jsut_basic5000_BASIC5000_3721	jsut_label_text_differs	朝の放送枠ではあるが、モンスターの死を描いたストーリーが多く、人の業を多く描いたのも本作品の特徴である。 -> 朝の放送枠ではあるが、モンスターの死を描いたストーリーが多く、人の業を多く描いたものも本作品の特徴である。
+jsut_basic5000_BASIC5000_3774	jsut_label_text_differs	しかし、全盛時はそれをも巻き返す強烈な脚力を誇っていた。 -> しかし、全盛期はそれをも巻き返す強烈な脚力を誇っていた。
+jsut_basic5000_BASIC5000_3775	jsut_label_text_differs	術者が疲れ切ると銀盤は黒く曇り、体力を大きく損ない、ひと月は能力枯渇で使い物にならなくとされる。 -> 術者が疲れ切ると銀盤は黒く陰り、体力を大きく損ない、ひと月は能力枯渇で使い物にならなくなるとされる。
+jsut_basic5000_BASIC5000_3777	jsut_label_text_differs	慶應義塾大学文学部、仏文学科卒業。 -> 慶應義塾大学文学部、仏文科卒業。
+jsut_basic5000_BASIC5000_3825	jsut_label_text_differs	つまり、根の塊が茎のように見え、その先からは、葉状の茎が放射状、水平に出るので、全体の姿は、ソテツかヤシの木のようにも見える。 -> つまり、根の塊が茎のように見え、その先からは、葉状の茎が放射状、水平に出るので、全体の姿は、ソテツやヤシの木のようにも見える。
+jsut_basic5000_BASIC5000_3837	jsut_label_text_differs	本作品は、時間の流れが異なる別世界の存在や、未来の世界、時間移動、それらによるパラレルな歴史、ループ、パラドックスなど、複雑な時間軸を持っている。 -> 本作品は、時間の流れが異なる別世界の存在や、未来の世界、移動時間、それらによるパラレルな歴史、ループ、パラドックスなど、複雑な時間軸を持っている。
+jsut_basic5000_BASIC5000_3859	jsut_label_text_differs	自らも不遇な環境に置かれていたため、困窮した生活や、人生の諦念、弱者や病気への苦しみなど、独特の倫理観で憐れみ、哀しみを詠った句が、多いのが特色である。 -> 自らも不遇な環境に置かれていたため、困窮した生活や、人生の諦念、弱者や病気への苦しみなど、独特の倫理観で憐れみ、哀しみを詠った句が、多いのが特徴である。
+jsut_basic5000_BASIC5000_3884	jsut_label_text_differs	競走成績や受賞歴に共通項のある競走馬による親睦団体がいくつも登場する。 -> 競走成績や受賞歴に共通項のある競走馬による親睦団体がいくつも存在する。
+jsut_basic5000_BASIC5000_3908	jsut_label_text_differs	その力による恐怖と妖しい魅力で、聚慎を滅亡させた張本人でありながら、聚慎の遺臣を部下に抱えている。 -> その力による恐怖と妖しい魔力で、聚慎を滅亡させた張本人でありながら、聚慎の遺臣を部下に抱えている。
+jsut_basic5000_BASIC5000_3915	jsut_label_text_differs	古墳時代中期に築造されたと考えられる。 -> 古墳時代中期に建造されたと考えられる。
+jsut_basic5000_BASIC5000_3928	jsut_label_text_differs	ポリケトン系樹脂は、脂肪族ポリケトンの他、芳香族ポリエーテルケトンなど、主鎖にケトン基を含むポリマー全般を指す。 -> ポリケトン系樹脂は、脂肪族ポリケトンの他、芳香族ポリエーテルケトンなど、主鎖にケトン基を含むポリマー全体を指す。
+jsut_basic5000_BASIC5000_3943	jsut_label_text_differs	墨家はその典型であり、博愛主義や非戦を唱えると同時に、その理想の実践のための、防御戦のプロフェッショナル集団でもあった。 -> 墨家はその典型であり、博愛主義や非戦を唱えると同時に、その理想の実践のための、防衛戦のプロフェッショナル集団でもあった。
+jsut_basic5000_BASIC5000_3945	jsut_label_text_differs	禁軍地方軍二十万の攻撃時に、野戦を続ける董平軍のために、必死で兵糧を集めるが、宋軍の攻撃を受け負傷、楽和の救援を受けるも、息を引き取る。 -> 禁軍地方軍二十万の攻撃時に、野戦を続ける董平軍のために、必死で兵糧を集めるが、宋軍の攻撃を受け負傷、楽和の救済を受けるも、息を引き取る。
+jsut_basic5000_BASIC5000_3953	jsut_label_text_differs	参加者の出身地のために、中国語版ウィキペディアでの一番の議論の的は、六四天安門事件、台湾独立運動、法輪功などに関する項目である。 -> 参加者の出身地のために、中国版ウィキペディアでの一番の議論の的は、六四天安門事件、台湾独立運動、法輪功などに関する項目である。
+jsut_basic5000_BASIC5000_3974	jsut_label_text_differs	かつてロバンの父、タンディリュスを恋慕したが、彼が人間の女性と交際、子供を設ける事で、一家に辛辣に接する。 -> かつてロバンの父、タンディリュスを恋慕したが、彼が人間の女性と交際、子供を儲ける事で、一家に辛辣に接する。
+jsut_basic5000_BASIC5000_3978	jsut_label_text_differs	そのまま乗車側の扉を閉め、乗務区の係員が、降車側の扉を閉めたのを確認し、電鈴を鳴らす。 -> そのまま乗車側の扉を閉め、乗車区の係員が、降車側の扉を閉めたのを確認し、電鈴を鳴らす。
+jsut_basic5000_BASIC5000_3979	jsut_label_text_differs	ユートピア回廊に繋がる橋を架ける権限を持つが、世界図書館には入ることはできない。 -> ユートピア回廊に繋がる橋を架ける権限を持つが、世界図書館に入ることはできない。
+jsut_basic5000_BASIC5000_3985	jsut_label_text_differs	また、利己的な理由でアニエルを殺した教会のやり方に完全に絶望し、ウリエルや自分自身に付き従う僧侶達を引き連れて、教会を出奔した。 -> また、利己的な理由でアニエルを殺した教会のやり方に完全に絶望し、ウリエルや自分自身に付き添う僧侶達を引き連れて、教会を出奔した。
+jsut_basic5000_BASIC5000_3994	jsut_label_text_differs	ホームから線路に向かって突き出した屋根の向こう側に視線を遮る壁は無く、オフィシャルホテルを眺める事ができる。 -> ホームから路線に向かって突き出した屋根の向こう側に視線を遮る壁は無く、オフィシャルホテルを眺める事ができる。
+jsut_basic5000_BASIC5000_4003	jsut_label_text_differs	製造方法は水飴の酵素糖化法と似ており、古くは発芽玄米中の糖化酵素を用いていたのが、後に、より効率の良い大麦麦芽が利用されるようになったのも、水飴と同様である。 -> 製造方法は水飴の酵素糖化法と似ており、古くは発芽玄米中の糖化酵素を用いていたのが、後に、より効率の良い大麦麦芽が利用されるようになったものも、水飴と同様である。
+jsut_basic5000_BASIC5000_4017	jsut_label_text_differs	棟札は、普段の利用者には見えない位置に取り付けられるため、年月か経つとしばしば存在が忘れられてしまう。 -> 棟札は、普段の利用者には見えない位置に取り付けられるため、年月が経つとしばしば存在が忘れられてしまう。
+jsut_basic5000_BASIC5000_4041	jsut_label_text_differs	画面の上端か右端で、その方向にレバーを入れたまま爆弾を投げると、跳ね返った爆弾は自分に当たらずに後へ飛んでいく。 -> 画面の上端か右端で、その方向にレバーを入れたまま爆弾を投げると、跳ね返った爆弾は自分に当たらず後へ飛んでいく。
+jsut_basic5000_BASIC5000_4044	jsut_label_text_differs	常時は、数人の家老の合議制によって、大綱が決定された。 -> 常時は、数人の家老の会議制によって、大綱が決定された。
+jsut_basic5000_BASIC5000_4101	jsut_label_text_differs	同じ協定名でも、個別締結の場合には、それぞれを分割して提示する。 -> 同じ協定名でも、個別提携の場合には、それぞれを分割して提示する。
+jsut_basic5000_BASIC5000_4116	jsut_label_text_differs	一方、制服と併用して着用する、通常勤務用の外套は、将兵ともに、ダブルのチェスターフィールドコートであり、将官、元帥クラスとなると、袖章が付く。 -> 一方、制服と併用して着用する、通常勤務用の外套は、将兵ともに、ダブルのチェスターフィールドコートであり、将官、元帥クラスになると、袖章が付く。
+jsut_basic5000_BASIC5000_4137	jsut_label_text_differs	最古の化石は、新生代になったばかりの、暁新世の地層から発見されている、起源の古い群である。 -> 最古の化石は、新生代になったばかりの、暁新世からの地層から発見されている、起源の古い群である。
+jsut_basic5000_BASIC5000_4160	jsut_label_text_differs	しかし、近代における花街の制度の変化に伴い、芸妓、娼妓が分離し、芸妓のみの花街と、娼妓のみの遊廓が生まれてくるようになった。 -> しかし、近代における花街の制度の変化に伴い、芸子、娼妓が分離し、芸子のみの花街と、娼妓のみの遊廓が生まれてくるようになった。
+jsut_basic5000_BASIC5000_4170	jsut_label_text_differs	アンモナギルディと同様に、昔のマンガなどにおけるお約束の塊。 -> アンモナギルディーと同様に、昔のマンガなどにおけるお約束の塊。
+jsut_basic5000_BASIC5000_4185	jsut_label_text_differs	白髪の生えた骸骨姿の者が、白い衣を纏った幽霊のように、井戸の中から釣瓶に吊られて浮かび上がった姿として描かれており、解説文は以下のように述べられている。 -> 白髪の生えた骸骨姿の者が、白い布を纏った幽霊のように、井戸の中から釣瓶に吊られて浮かび上がった姿として描かれており、解説文は以下のように述べられている。
+jsut_basic5000_BASIC5000_4194	jsut_label_text_differs	公儀に対し何らかの手続きを行う場合には親族、一門や同僚、上司などが証人、若しくは保証人として手続きに関与する必要があった。 -> 公儀に対し何かしらの手続きを行う場合には親族、一門や同僚、上司などが証人、若しくは保証人として手続きに関与する必要があった。
+jsut_basic5000_BASIC5000_4207	jsut_label_text_differs	この記事では世界で最初に蒸気機関のみで航行する、装甲艦を発明したフランス海軍から順に、装甲艦を導入した順から、各国の戦艦を、竣工順に並べる。 -> この世界では世界で最初に蒸気機関のみで航行する、装甲艦を発明したフランス海軍から順に、装甲艦を導入した順から、各国の戦艦を、竣工順に並べる。
+jsut_basic5000_BASIC5000_4224	jsut_label_text_differs	奇鋼仙女の炎の発射口を自ら塞ぐも、直後に暴発に巻き込まれて倒された。 -> 奇鋼仙女の炎の発射口を自ら塞ぐも、直後に爆発に巻き込まれて倒された。
+jsut_basic5000_BASIC5000_4227	jsut_label_text_differs	サーバはリクエストを理解し、遂行のためにプロトコルの切替えを要求している。 -> サーバはリクエストを理解し、遂行のためにプロコトルの切替えを要求している。
+jsut_basic5000_BASIC5000_4233	jsut_label_text_differs	ランスに国主としての自覚を芽生えさせるべく、一計を謀るなど策士的な面も併せ持つ。 -> ランスに国王としての自覚を芽生えさせるべく、一計を謀るなど策士的な面も併せ持つ。
+jsut_basic5000_BASIC5000_4274	jsut_label_text_differs	石炭は、ジョンソン郡や東部ケンタッキー州にとって南北戦争前でも重要だったが、その発展は、戦争の開始時点で止まってしまった。 -> 石炭は、ジョンソン郡や東部ケンタッキー州によって南北戦争前でも重要だったが、その発展は、戦争の開始時点で止まってしまった。
+jsut_basic5000_BASIC5000_4286	jsut_label_text_differs	線路と並行していた県道の拡幅用地とされ、歩道となっている。 -> 路線と並行していた県道の拡幅用地とされ、歩道となっている。
+jsut_basic5000_BASIC5000_4290	jsut_label_text_differs	以上のような訓練を経ることによって、精神分析家となることができる。 -> 以上のような経験を経ることによって、精神分析家となることができる。
+jsut_basic5000_BASIC5000_4327	jsut_label_text_differs	ただ、イネが単独で栽培されていたわけでなく、オオムギ、ヒエ、キビ、アワ、ソバなどの雑穀類の栽培や、アズキ、大豆なども混作されていた。 -> ただ、イネが単独で栽培されていたわけではなく、オオムギ、ヒエ、キビ、アワ、ソバなどの雑穀類の栽培や、アズキ、大豆なども混作されていた。
+jsut_basic5000_BASIC5000_4338	jsut_label_text_differs	温泉旅館と湯治宿を兼ねる、昔ながらの温泉宿であり、小さい男女別の浴場と、混浴の大浴場があった。 -> 温泉旅行と湯治宿を兼ねる、昔ながらの温泉宿であり、小さい男女別の浴場と、混浴の大浴場があった。
+jsut_basic5000_BASIC5000_4349	jsut_label_text_differs	生地に少量の漆で模様の形を塗り、その上に金箔を、撚れないように載せる。 -> 生地に少量の漆で模型の形を塗り、その上に金箔を、撚れないように載せる。
+jsut_basic5000_BASIC5000_4398	jsut_label_text_differs	一妻多夫制で、オスはメスを引き付けるために、隠蔽色から鮮やかな色へ変化する。 -> 一夫多妻制で、オスはメスを引き付けるために、隠蔽色や鮮やかな色へ変化する。
+jsut_basic5000_BASIC5000_4420	jsut_label_text_differs	魔力を持った人間は、レヴィアンタ魔道王国に集められていたため、レヴィアンタの災厄で、この一族の人間はいなくなったとされる。 -> 魔力を持った人間は、レヴィアンタ魔道王国に集められていたため、レヴィアンタの厄災で、この一族の人間はいなくなったとされる。
+jsut_basic5000_BASIC5000_4432	jsut_label_text_differs	ダンゲルと同様に、失敗したりしたり、時にはジャネラの意志でヘルメット部が絞まる形で激しい苦痛を与えられる。 -> ダンゲルと同様に、失敗したり、時にはジャネラの意志でヘルメット部が絞まる形で苦しい苦痛を与えられる。
+jsut_basic5000_BASIC5000_4435	jsut_label_text_differs	輪のように縫い付けられた布製の物で、堅い部品を持たない。 -> 輪のように縫い付けられた布製の物で、堅い部分を持たない。
+jsut_basic5000_BASIC5000_4457	jsut_label_text_differs	その御趣旨によると、我等臣民たるものは父母に孝行を尽くし、兄弟姉妹仲よくし、夫婦互いに分を守って睦まじくし、朋友には信義をもって交わらなければならなりません。 -> その御趣旨によると、我等臣民たるものは父母に孝行を尽くし、兄弟姉妹仲よくし、夫婦互いに分を守って睦まじくし、朋友には信義をもって交わらなければなりません。
+jsut_basic5000_BASIC5000_4461	jsut_label_text_differs	男は、凧揚げは子供時代に腕に覚えがあったことを息子に自慢し、まず自分がと、凧を揚げる。 -> 男は、旗揚げは子供時代に腕に覚えがあったことを息子に自慢し、まず自分がと、旗を揚げる。
+jsut_basic5000_BASIC5000_4472	jsut_label_text_differs	ティーの導きに沿いスーパーアレスタを駆る主人公は、一体どのような戦火に遭遇するのであろうか。 -> ティーの導きに従いスーパーアレスタを駆る主人公は、一体どのような戦火に遭遇するのであろうか。
+jsut_basic5000_BASIC5000_4523	jsut_label_text_differs	色黒のモデルはやはりカッコいいので、日焼けサロンでこんがり焼かないと。 -> 色黒のモデルはやっぱりカッコいいので、日焼けサロンでこんがり焼かないと。
+jsut_basic5000_BASIC5000_4530	jsut_label_text_differs	埼玉県に住んでいる知り合いは、ここが東京だと思っている。 -> 埼玉県に住んでる知り合いは、ここが東京だと思っている。
+jsut_basic5000_BASIC5000_4534	jsut_label_text_differs	本を買いすぎたせいで部屋の中が足の踏み場がなくなってきた、新しい本棚を買おう。 -> 本を買いすぎたせいで部屋の中の足の踏み場がなくなってきた、新しい本棚を買おう。
+jsut_basic5000_BASIC5000_4536	jsut_label_text_differs	ごみ箱がいっぱいになったので、ごみ袋に入れ替えた。 -> ごみ袋がいっぱいになったので、ごみ袋に入れ替えた。
+jsut_basic5000_BASIC5000_4542	jsut_label_text_differs	父はお酒を飲んだからか、終始、えびす顔だった。 -> 父はお酒を飲んだからか、始終、えびす顔だった。
+jsut_basic5000_BASIC5000_4568	jsut_label_text_differs	雨が降りそうな空模様だっので、長靴を履いて出かけた。 -> 雨が降りそうな空模様だったので、長靴を履いて出かけた。
+jsut_basic5000_BASIC5000_4810	jsut_label_text_differs	犬が鎖をちぎり、放れていった。 -> 犬が草をちぎり、放れていった。
+jsut_basic5000_BASIC5000_4855	jsut_label_text_differs	ひとの声に似た不気味な鳴き声、漆黒の羽、死肉を啄む姿などから、鴉は不幸に舞い降りる、不吉な鳥として世界に知られています。 -> ひとの声に似た不思議な鳴き声、漆黒の羽、死肉を啄む姿などから、鴉は不幸に舞い降りる、不吉な鳥として世界に知られています。
+jsut_basic5000_BASIC5000_4932	jsut_label_text_differs	東京には、醜悪な建築物がたくさん見られる。 -> 東京には、醜悪な建物がたくさん見られる。
+jsut_basic5000_BASIC5000_0013	nucleus_on_special_mora	チューシン'ブ
+jsut_basic5000_BASIC5000_0072	nucleus_on_special_mora	デッ'パ
+jsut_basic5000_BASIC5000_0167	nucleus_on_special_mora	バクスゲン'シャ
+jsut_basic5000_BASIC5000_0384	nucleus_on_special_mora	ペッ'ト
+jsut_basic5000_BASIC5000_0411	nucleus_on_special_mora	カンイベッ'ド
+jsut_basic5000_BASIC5000_0858	nucleus_on_special_mora	ホーケン/コッ'カ
+jsut_basic5000_BASIC5000_1019	nucleus_on_special_mora	セーネン'キ
+jsut_basic5000_BASIC5000_1098	nucleus_on_special_mora	フォイエルバッ'ハ
+jsut_basic5000_BASIC5000_1165	nucleus_on_special_mora	ショーネン'タチ
+jsut_basic5000_BASIC5000_1287	nucleus_on_special_mora	ロッ'ク
+jsut_basic5000_BASIC5000_1401	nucleus_on_special_mora	センシン'コク
+jsut_basic5000_BASIC5000_1529	nucleus_on_special_mora	ギョーショー'ニン
+jsut_basic5000_BASIC5000_1530	nucleus_on_special_mora	ボーチョー'ニン
+jsut_basic5000_BASIC5000_1800	nucleus_on_special_mora	テッコーセー'サン
+jsut_basic5000_BASIC5000_1837	nucleus_on_special_mora	フリョー'タチ
+jsut_basic5000_BASIC5000_1944	nucleus_on_special_mora	セーフティーボッ'クス
+jsut_basic5000_BASIC5000_1948	nucleus_on_special_mora	コギッ'テ
+jsut_basic5000_BASIC5000_2150	nucleus_on_special_mora	ホーモン'キャク
+jsut_basic5000_BASIC5000_2404	nucleus_on_special_mora	ドッ'チ
+jsut_basic5000_BASIC5000_2620	nucleus_on_special_mora	ドッ'チ
+jsut_basic5000_BASIC5000_2641	nucleus_on_special_mora	レッ'ド
+jsut_basic5000_BASIC5000_2685	nucleus_on_special_mora	イッショーケン'メー
+jsut_basic5000_BASIC5000_3120	nucleus_on_special_mora	イッ'カ
+jsut_basic5000_BASIC5000_3336	nucleus_on_special_mora	ダンソー'ナイ
+jsut_basic5000_BASIC5000_3580	nucleus_on_special_mora	タイダン'ゴ
+jsut_basic5000_BASIC5000_4002	nucleus_on_special_mora	ロッ'ク
+jsut_basic5000_BASIC5000_4012	nucleus_on_special_mora	ナッ'クル
+jsut_basic5000_BASIC5000_4020	nucleus_on_special_mora	イッ'シ
+jsut_basic5000_BASIC5000_4065	nucleus_on_special_mora	ラーン'ガワ
+jsut_basic5000_BASIC5000_4688	nucleus_on_special_mora	エダハマッ'セツ
+jsut_basic5000_BASIC5000_4792	nucleus_on_special_mora	トラッ'ク
+jsut_basic5000_BASIC5000_4895	nucleus_on_special_mora	ヒッ'シャ
+jsut_basic5000_BASIC5000_4906	nucleus_on_special_mora	ジブンカッ'テ
+jsut_voiceactress100_VOICEACTRESS100_070	nucleus_on_special_mora	ボー'ハン
+jsut_basic5000_BASIC5000_0234	surface_vs_kana	３１日は -> サンジューイチニチ | １月３０日、<PHON_START>サ'ンジュー/イチニチ<PHON_END>、葬式のため休みます。
+jsut_basic5000_BASIC5000_0376	surface_vs_kana	３１日は -> サンジューイチニチ | 移転にともない、５月３０日、<PHON_START>サ'ンジュー/イチニチ<PHON_END>、休業いたします。
+jsut_basic5000_BASIC5000_0841	surface_vs_kana	に電 -> デンワ | 夜１０時以後に人<PHON_START>デンワ<PHON_END>話するには、避けるべきだ。
+jsut_basic5000_BASIC5000_0912	surface_vs_kana	の -> ツギ | ４１８号室に行く途中、彼は、次<PHON_START>ツギ<PHON_END>ように思い始めました。
+jsut_basic5000_BASIC5000_0987	surface_vs_kana	６４平方フィートで -> ロクジューヨンヘーホーフィート | 縦横８フィートの部屋の面積は、<PHON_START>ロクジューヨンヘーホーフィ'ート<PHON_END>ある。
+jsut_basic5000_BASIC5000_1123	surface_vs_kana	平和公園に建 -> ヒロシマヘーワコーエン | １９５８年、その記念碑は、広島<PHON_START>ヒロシマ/ヘーワ/コ'ーエン<PHON_END>てられた。
+jsut_basic5000_BASIC5000_1460	surface_vs_kana	府か -> セーフ | ６５歳以上の人たちは、政<PHON_START>セ'ーフ<PHON_END>ら年金を受けている。
+jsut_basic5000_BASIC5000_1641	surface_vs_kana	で -> ダレ | 内線２１４に出る人なら、誰<PHON_START>ダ'レ<PHON_END>も構いません。
+jsut_basic5000_BASIC5000_1888	surface_vs_kana	の割 -> ワリアイ | 針は、中心を、一時間に、１０回転<PHON_START>ワリアイ<PHON_END>合で回る。
+jsut_basic5000_BASIC5000_2119	surface_vs_kana	とが -> コト | 遺憾ながら、２月２７日のお約束を、守るこ<PHON_START>コト<PHON_END>出来ません。
+jsut_basic5000_BASIC5000_2254	surface_vs_kana	つの -> イツツ | ２５歳までに、彼女は五<PHON_START>イツ'ツ<PHON_END>異なる国で暮らしてきた。
+jsut_basic5000_BASIC5000_2344	surface_vs_kana	で受 -> ジョータイ | ３４５型は、良い状態<PHON_START>ジョータイ<PHON_END>け取りました。
+jsut_basic5000_BASIC5000_2346	surface_vs_kana	い鍵を -> アイカギ | ３６０号室の合<PHON_START>アイカギ<PHON_END>、貸していただきませんか。
+jsut_basic5000_BASIC5000_2347	surface_vs_kana	客さんに -> オキャクサン | ３１８号室のお<PHON_START>オキャク/サン<PHON_END>、持って行ってあげなさい。
+jsut_basic5000_BASIC5000_2352	surface_vs_kana	した -> オーフク | ３８１日間、モントゴメリーのバスは、ほとんど空っぽの状態で、路線を往復<PHON_START>オーフク<PHON_END>。
+jsut_basic5000_BASIC5000_2430	surface_vs_kana	立さ -> ソーリツ | 協会は１９９０年に創<PHON_START>ソーリツ<PHON_END>れました。
+jsut_basic5000_BASIC5000_2490	surface_vs_kana	五入すれ -> シシャゴニュー | ５８１４を千の位に四捨<PHON_START>シ'シャゴニュー<PHON_END>ば何になりますか。
+jsut_basic5000_BASIC5000_0016	tag_kana_not_in_reading	シュッショ'ーリツ | しゅっせーりつとしぼーりつわ、ほぼひとしかった
+jsut_basic5000_BASIC5000_0053	tag_kana_not_in_reading	ミデアムレ'ア | みでぃあむれあにして、ぽてとをひとつ、つけてください
+jsut_basic5000_BASIC5000_0077	tag_kana_not_in_reading	ア'ンヤ | やみよにてっぽーじゃあるまいし、そんなばあたりてきなやりかたで、うまくいくとわおもえないよ
+jsut_basic5000_BASIC5000_0193	tag_kana_not_in_reading	ゴイッショ | ごかぞくもいっしょにつれてこられたのですか
+jsut_basic5000_BASIC5000_0253	tag_kana_not_in_reading	カンサン | おんなとゆーものわ、なんでもおかねにかんざんしてかんがえる
+jsut_basic5000_BASIC5000_0293	tag_kana_not_in_reading	ミナ | きどりのないそのがくしゃわ、みんなにあいされていた
+jsut_basic5000_BASIC5000_0347	tag_kana_not_in_reading	ナ'ニ | がんばれさえすれば、たいりょくやちりょくがなくても、なんでもできるとゆー、いっしゅのせーしんしゅぎもある
+jsut_basic5000_BASIC5000_0486	tag_kana_not_in_reading	ノビノ'ビ | あまぞんがわわ、えんえんと、きたぶらじるをながれている
+jsut_basic5000_BASIC5000_0555	tag_kana_not_in_reading	チューフツ/ニッポンタ'イシ | ちゅーふつにほんたいしわだれだかしっていますか
+jsut_basic5000_BASIC5000_0598	tag_kana_not_in_reading	カンサツ | みなみしょとーのこみゅにてぃーのなかにわ、まったくのせーはんたいのけつえんかんけーのぱたーんが、かんそくされるであろー
+jsut_basic5000_BASIC5000_0774	tag_kana_not_in_reading	ケ'ンクン | たけるくんととにーくんとでわ、どちらがはやくはしりますか
+jsut_basic5000_BASIC5000_0822	tag_kana_not_in_reading	ドルペ'ッグ | どるぺっくのいみわ、つよいくににつけとゆーことです
+jsut_basic5000_BASIC5000_0850	tag_kana_not_in_reading	イッセンマ'ンドル | しゅっすいのひがいわ、せんまんどるにたっしている
+jsut_basic5000_BASIC5000_0869	tag_kana_not_in_reading	コドモ | ごさいみまんのしょーじんわ、にゅーじょーりょーわいりません
+jsut_basic5000_BASIC5000_0895	tag_kana_not_in_reading	ミョーゴ'ニチ | あさってのあぽいんとをとりたいのですが
+jsut_basic5000_BASIC5000_0930	tag_kana_not_in_reading	ヒ | ど、にち、げつの、ごぜんじゅーじはんから、ごごよじまでかいかん
+jsut_basic5000_BASIC5000_1135	tag_kana_not_in_reading	マドガワ | まどぎわかつーろがわ、どちらになさいますか
+jsut_basic5000_BASIC5000_1141	tag_kana_not_in_reading	ヒロ'ブミ | ひろふみわ、てんじょーにぐらすふぁいばーのだんねつざいをいれた
+jsut_basic5000_BASIC5000_1171	tag_kana_not_in_reading	グ'ン | ぼくよーけんが、ひつじのむれを、ぼくじょーえつれていく
+jsut_basic5000_BASIC5000_1177	tag_kana_not_in_reading	ミリョクテキ | きふじんわいそいでびょーいんえいき、そのまましんさつしつえとつれていかれた
+jsut_basic5000_BASIC5000_1178	tag_kana_not_in_reading	キフ'ジン | よしおわ、わたしがそのはこをもちあげるのをてつだってくれた
+jsut_basic5000_BASIC5000_1195	tag_kana_not_in_reading	カクタイ | しゅたい、きゃくたいさえやくせれば、あとわそこまでむずかしくないです
+jsut_basic5000_BASIC5000_1252	tag_kana_not_in_reading	チ'イキ | かわがはんらんしていて、ひろいすいーきがみずびだしになった
+jsut_basic5000_BASIC5000_1289	tag_kana_not_in_reading	カ'ク | くろぬりのりむじんが、きーとゆーたいやのおととともに、かどをまがった
+jsut_basic5000_BASIC5000_1519	tag_kana_not_in_reading	シャ | なりあがりものわ、きょーよーにんとしてつーよーしよーとした
+jsut_basic5000_BASIC5000_1614	tag_kana_not_in_reading	キ'ン | かりないですむいじょーのかねをかりるな
+jsut_basic5000_BASIC5000_1752	tag_kana_not_in_reading	ジュ'ッパ/ヒトカラゲ | じっぱひとからげにしないで、もーすこしこべつあんけんをきちんとけんとーしてくださいよ
+jsut_basic5000_BASIC5000_1774	tag_kana_not_in_reading	ナ'ニ | かくやくわできないけど、なんとかやってみましょー
+jsut_basic5000_BASIC5000_1833	tag_kana_not_in_reading	イッショーケ'ンメー | にゅーがくしけんにおちないよーに、かのじょわ、いっしょけんめーにべんきょーした
+jsut_basic5000_BASIC5000_2121	tag_kana_not_in_reading	イチ | ししょーしゃわ、ごーけー、せんめーとなったとゆーことだ
+jsut_basic5000_BASIC5000_2158	tag_kana_not_in_reading	アカダマ | せっきゅーが、ひとつしろのなかにまぎれこんでいる
+jsut_basic5000_BASIC5000_2186	tag_kana_not_in_reading	ツイカンバン/ヘル'ニア | すいかんばんへるにあを、わずらっています
+jsut_basic5000_BASIC5000_2228	tag_kana_not_in_reading	ナ'ニ | ぼく、むげーたいしょくで、なんのとりえもないんです
+jsut_basic5000_BASIC5000_2246	tag_kana_not_in_reading	リュウチショ | かれしが、りゅーちじょにはいって、とーかたちました
+jsut_basic5000_BASIC5000_2265	tag_kana_not_in_reading	カ'ー/モ'ク/キ'ン | ゆきこちゃんわ、あしたいこー、か、もく、きんのしふとでしゅっきんしてくれればいーから
+jsut_basic5000_BASIC5000_2281	tag_kana_not_in_reading	ナ'ニ | おれにわなんのこねもないから、しゅーしょくするのがたいへんだ
+jsut_basic5000_BASIC5000_2421	tag_kana_not_in_reading	シ'ミズ | きよみずのぶたいからとびおりるつもりで、しょーぶにでるよ
+jsut_basic5000_BASIC5000_2534	tag_kana_not_in_reading	タ | もくひょーをもっているとゆーてんで、かのじょわ、ほかのひととわちがう
+jsut_basic5000_BASIC5000_2548	tag_kana_not_in_reading	イチ/ザ'イサン | いちかばちかやってみることで、ひとざいさんできるだろー
+jsut_basic5000_BASIC5000_2657	tag_kana_not_in_reading	サ'ダコ | いま、てーこにできることわ、おりずるをおって、きせきをねがうことだけだった
+jsut_basic5000_BASIC5000_2673	tag_kana_not_in_reading	クジラ | げーわほごされなければ、ぜつめつするだろー
+jsut_basic5000_BASIC5000_2704	tag_kana_not_in_reading	フツカ | めーしょがあまりおーくて、いち、ににちでみるわけにわいかなかった
+jsut_basic5000_BASIC5000_2800	tag_kana_not_in_reading	ヒャク'ゴー | ゆりが、あめのためにうちたおされてしまった
+jsut_basic5000_BASIC5000_3060	tag_kana_not_in_reading	ミチ | ひとつのととしてわ、がっこーで、がくぎょーゆーしゅーだったり、げーにひでるなどして、せんばつされて、きょーさんとーせーねんだんめんばーになり、そのかつどーけっかととーいんのすいせんにより、とーいんになれるとがある
+jsut_basic5000_BASIC5000_3061	tag_kana_not_in_reading	トキ'ムネ | きんせーにわ、えどばくふのめーにより、しょーじょーこーじをそーほんざんとする、じしゅーのかんかつかにおかれた
+jsut_basic5000_BASIC5000_3221	tag_kana_not_in_reading	ズダブ'クロ | よーしょーじだいわげんざいのますくでわなく、ずたぶくろをかぶり、すがおをかくしていた
+jsut_basic5000_BASIC5000_3278	tag_kana_not_in_reading	イシ/ドウロウ | としぶでもちょっとしたりょくちにわしゅつげんし、にわきや、てらのいしとーろーなどにもみられることがよくある
+jsut_basic5000_BASIC5000_3291	tag_kana_not_in_reading	エ'ン | わたしたちをそだてるまなびのそのわさかえる
+jsut_basic5000_BASIC5000_3473	tag_kana_not_in_reading	ムト'ンチャク | みだしなみにむとんじゃくでふけつ、ちかよればかなりにおう
+jsut_basic5000_BASIC5000_3480	tag_kana_not_in_reading	キョーダイ | しかしどーじに、えどがーがかんぜんなぷりんすとしてかくせーしたときわ、もともとかれのもつししつにより、いままでにないきょーりょくなしはいりょくをもつぷりんすになるときぐされている
+jsut_basic5000_BASIC5000_3537	tag_kana_not_in_reading	ス'トカ | くろんくゔぃすとけのしせーじなのでわないかとうわさされたが、けっきょくわなぞのままであった
+jsut_basic5000_BASIC5000_3577	tag_kana_not_in_reading	タメ | あくまでもちゃんすぼたんわゆーぎだいでの、えんしゅつをたのしむものである
+jsut_basic5000_BASIC5000_3605	tag_kana_not_in_reading	ナンジュー | ねつをくわえてのばすと、うぶげぐらいのほそさまでのばすことができ、それを、いくえにもかさねてつくるかべわ、こーてつをもしのぐかたさになる
+jsut_basic5000_BASIC5000_3639	tag_kana_not_in_reading	フ'ネ | そのうえ、でぃおにゅーそすわししえとへんじ、せんのちゅーおーにくまをしょーかんした
+jsut_basic5000_BASIC5000_3668	tag_kana_not_in_reading	クロ/オ'ーグン | きょーりょくなのーりょくをもつはいきぶつと、ぐんたいとかしたばけものらによるこくおーぐんのしんこーのまえに、よーさいわ、かんたんにかんらくしてしまった
+jsut_basic5000_BASIC5000_3717	tag_kana_not_in_reading	コーキュー/シナ | こくないでほかくされる、あおりいかわりょかくりょーわすくなく、りょーりや、りょーてーなどでしょーひされるこーきゅーひん
+jsut_basic5000_BASIC5000_3724	tag_kana_not_in_reading	ジ'イン | ほっけしゅーしんもんりゅーのじーいんにかんするかてごり
+jsut_basic5000_BASIC5000_3858	tag_kana_not_in_reading	オーダン | しんだんがくでわおーたんわひとつのちょーこーとしてとらえられている
+jsut_basic5000_BASIC5000_3915	tag_kana_not_in_reading	チクゾー | こふんじだいちゅーきにけんぞーされたとかんがえられる
+jsut_basic5000_BASIC5000_3940	tag_kana_not_in_reading	ノ'ヤマ/ジンベ'ータ | だんちょーののやまじんぺーたをちゅーしんに、おもにろーじんでそしきされている
+jsut_basic5000_BASIC5000_3953	tag_kana_not_in_reading	チューゴクゴバン/ウィキペ'ディア | さんかしゃのしゅっしんちのために、ちゅーごくばんうぃきぺでぃあでのいちばんのぎろんのまとわ、ろくしてんあんもんじけん、たいわんどくりつうんどー、ほーりんこーなどにかんするこーもくである
+jsut_basic5000_BASIC5000_3982	tag_kana_not_in_reading	サ'ヌキノクニ/シュゴ'ショク | さぬきこくしゅごしょくをつとめており、このしゅごしょくわ、ほーじがっせんですいぼーした、みうらしをじょーとされたものだとゆー
+jsut_basic5000_BASIC5000_4052	tag_kana_not_in_reading	ドキョー | いっぱんにわこんぎょーのさいに、どっきょーやしんごんをよみまちがえたり、ざつねんやじゃねんがしょーじたさいの、ゆるしをこうためにとなえられる
+jsut_basic5000_BASIC5000_4057	tag_kana_not_in_reading	カラダ | そのなのとーり、あおぐろいしんたいに、ふんぬそーをしたごほーぜんじんである
+jsut_basic5000_BASIC5000_4124	tag_kana_not_in_reading	フクモン | ますがたをそなえるふくかどで、にのもんわやぐらもんとなっていた
+jsut_basic5000_BASIC5000_4151	tag_kana_not_in_reading	ジジン | そのご、てらだやじけんでむすこがしんだことをしり、じしん
+jsut_basic5000_BASIC5000_4158	tag_kana_not_in_reading	ナワシロシキ | また、とーだいちゅーきいこーわ、じかまきしきであったいなさくわ、いなしろしきにかわっていった
+jsut_basic5000_BASIC5000_4203	tag_kana_not_in_reading	ボーシモ'ファン | ぼーそーふぁんのみでわたいおーできないほどひえこむばーいわ、びにーるしーとなどをへいよーする
+jsut_basic5000_BASIC5000_4252	tag_kana_not_in_reading	タケズミ | きゅーちゃくのーりょくがてーかしてきたときわてーきてきにしゃふつしょーどくをすれば、ちくたんの、あなにきゅーちゃくしたぶっしつがとれ、さいりよーできることもある
+jsut_basic5000_BASIC5000_4286	tag_kana_not_in_reading	ヘーコー | ろせんとへんこーしていたけんどーのかくふくよーちとされ、ほどーとなっている
+jsut_basic5000_BASIC5000_4341	tag_kana_not_in_reading	ナ'ニ | あみぼーからけーとをだしてなんでもあむ
+jsut_basic5000_BASIC5000_4398	tag_kana_not_in_reading	イ'ッサイ/タフセー | いっぷたさいせーで、おすわめすをひきつけるために、いんぺーしょくや、あざやかないろえへんかする
+jsut_basic5000_BASIC5000_4425	tag_kana_not_in_reading	ホ'ーシュ | がいけんわおさないしょーじょで、にんげんになるためにひつよーなまりょくをむねにいだいたほーじゅにたくわえている
+jsut_basic5000_BASIC5000_4457	tag_kana_not_in_reading	ブ'ン | そのごしゅしによると、われらしんみんたるものわふぼにこーこーをつくし、きょーだいしまいなかよくし、ふーふたがいにぶをまもってつつまじくし、ほーゆーにわしんぎをもってまじわらなければなりません
+jsut_basic5000_BASIC5000_4475	tag_kana_not_in_reading	ゴ'ーシ | すると、こんきゅーくからか、せーかつのために、きょーしのみぶんをじょーとするよーになった
+jsut_basic5000_BASIC5000_4536	tag_kana_not_in_reading	ゴミバコ | ごみぶくろがいっぱいになったので、ごみぶくろにいれかえた
+jsut_basic5000_BASIC5000_4648	tag_kana_not_in_reading	カ'ン | ゆーれーがでるとうわさのあるやかたのまえをとーらないよーにかえってきた
+jsut_basic5000_BASIC5000_4688	tag_kana_not_in_reading	エダハマッ'セツ | しよーまっせつにこだわっていてわいけない
+jsut_basic5000_BASIC5000_4780	tag_kana_not_in_reading	ハ'イ | さんにんわさかずきをかわし、ぎきょーだいのちかいをたてた
+jsut_basic5000_BASIC5000_4803	tag_kana_not_in_reading	ナ'スビ | もらいもののなすをれーぞーこにいれたまま、くさらせてしまった
+jsut_basic5000_BASIC5000_4827	tag_kana_not_in_reading	ユ'ーシ | なめくじにわ、おすめすのくべつわない
+jsut_basic5000_BASIC5000_4836	tag_kana_not_in_reading	リョ'ー | みささぎとわ、いじんたちのはかのことをゆー
+jsut_basic5000_BASIC5000_4838	tag_kana_not_in_reading	ル'イカ | あやかしのたぐいかと、きもをひやした
+jsut_basic5000_BASIC5000_4855	tag_kana_not_in_reading	ブキミ | ひとのこえににたふしぎななきごえ、しっこくのはね、しにくをついばむすがたなどから、からすわふこーにまいおりる、ふきつなとりとして、せかいにしられています
+jsut_basic5000_BASIC5000_4927	tag_kana_not_in_reading	ニッポン | にほんのさいこーほーわ、ふじさんである
+jsut_basic5000_BASIC5000_4953	tag_kana_not_in_reading	ジ | ときがたつにつれて、かなしみわうすらぐ
+jsut_basic5000_BASIC5000_4954	tag_kana_not_in_reading	イト'グチ | わたしわれーせーでいよーとしたが、とーとーかんにんぶくろのおがきれた

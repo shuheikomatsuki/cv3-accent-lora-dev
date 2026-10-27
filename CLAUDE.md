@@ -15,7 +15,9 @@ LoRA for local reading/accent control in Fun-CosyVoice3 (UtterTune-style `<PHON_
 ## Layout
 - `src/cv3lora/`: importable code. `scripts/<stage>/NN_*.py`: entry points, run in number order.
 - `configs/paths.local.yaml` (gitignored): machine paths; `load_paths()` reads it.
-- `data/`: small text only (UtterTune TSV fixes, splits). `results/`: small tables and figures.
+- `data/`: small text only. `data/uttertune/jsutjvs_manifest.tsv` is the training manifest
+  (UtterTune original committed first; each correction is its own commit, reason in `fixes.tsv`).
+  Read it with `cv3lora.manifest.load_manifest()`. `data/splits/`: split and seen/unseen flags. `results/`: small tables and figures.
 - Never commit audio, speech tokens, model weights or checkpoints. They live under
   `token_root` and `work_root` (see paths.local.yaml).
 - Speech tokens are canonical once extracted (§10); do not re-extract or overwrite them.

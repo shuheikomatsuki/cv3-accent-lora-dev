@@ -18,13 +18,10 @@ import torch
 
 from cv3lora.cosyvoice_loader import cosyvoice_commit, load_cosyvoice3
 from cv3lora.lm_loss import PREFIX, length_batches, sequence_loss, text_tokens
+from cv3lora.manifest import read_transcript
 from cv3lora.paths import REPO, load_paths
 
 OUT = REPO / "results/speaker_diag"
-
-
-def read_transcript(path) -> dict[str, str]:
-    return dict(line.split(":", 1) for line in path.read_text().splitlines() if ":" in line)
 
 
 def diag_utterances(paths: dict) -> list[dict]:
