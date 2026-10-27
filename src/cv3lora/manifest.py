@@ -10,6 +10,7 @@ from pathlib import Path
 from cv3lora.paths import REPO
 
 MANIFEST = REPO / "data/uttertune/jsutjvs_manifest.tsv"
+EXCLUDE = REPO / "data/uttertune/exclude.tsv"
 TAG = re.compile(r"<PHON_START>(.*?)<PHON_END>")
 SMALL = set("ァィゥェォャュョヮ")
 
@@ -25,6 +26,15 @@ def load_manifest() -> list[dict]:
     for r in rows:
         r["id"] = utt_id(r)
     return rows
+
+
+def load_excluded() -> dict[str, str]:
+    """Utterance id -> reason for recordings left out of training and dev loss.
+
+    The split (data/splits/) keeps them in their sets; loaders drop them.
+    """
+    with open(EXCLUDE) as f:
+        return {r["id"]: r["reason"] for r in csv.DictReader(f, delimiter="\t")}
 
 
 def read_transcript(path: Path) -> dict[str, str]:
