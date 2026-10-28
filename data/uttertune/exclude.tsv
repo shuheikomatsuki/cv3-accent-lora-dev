@@ -14,3 +14,55 @@ jvs047_parallel100_VOICEACTRESS100_085	cut off mid-sentence, 2.82 s (listened)
 jvs009_parallel100_VOICEACTRESS100_095	cut off almost at the start, 0.59 s (listened)
 jsut_basic5000_BASIC5000_1177	contains the sentence of _1178 (jsut-label text_level2, Whisper check, listened)
 jsut_basic5000_BASIC5000_1178	contains the sentence of _1179 (jsut-label text_level2, Whisper check, listened)
+jsut_basic5000_BASIC5000_0162	text differs: 選→呼 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_0253	recording reads 換算 as かんざん (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_0822	recording reads ドルペッグ as どるぺっく (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_0869	recording reads 小人 as しょーじん (jsut-label kana_level3); wrong word; listened
+jsut_basic5000_BASIC5000_1051	text differs: 期→時 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_1080	text differs: 語→∅ (jsut-label text_level2); skipped words; listened
+jsut_basic5000_BASIC5000_1158	text differs: ∅→会, 解→∅ (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_1252	recording reads 地域 as すいーき (jsut-label kana_level3); text differs: 地→水 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_2082	text differs: 持→待, 持→待 (jsut-label text_level2); misread characters; listened
+jsut_basic5000_BASIC5000_2186	recording reads 椎間板ヘルニア as すいかんばんへるにあ (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_2258	text differs: 通→電 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_2673	recording reads 鯨 as げー (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_2932	text differs: せ→さ (jsut-label text_level2); misreading; listened
+jsut_basic5000_BASIC5000_3060	recording reads 途 as と (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_3179	text differs: ∅→も, を→と, で→を (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_3221	recording reads ズダ袋 as ずたぶくろ (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_3278	recording reads 石灯籠 as いしとーろー (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_3330	text differs: より→∅ (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_3339	text differs: 秋→春 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_3364	text differs: 夏家店→∅ (jsut-label text_level2); skipped words; listened
+jsut_basic5000_BASIC5000_3365	text differs: 狭→挟 (jsut-label text_level2); misread characters; listened
+jsut_basic5000_BASIC5000_3370	text differs: プ→ブ (jsut-label text_level2); misreading; listened
+jsut_basic5000_BASIC5000_3435	text differs: 席→現 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_3436	text differs: の幹比古→∅ (jsut-label text_level2); skipped words; listened
+jsut_basic5000_BASIC5000_3442	text differs: 鳥→∅ (jsut-label text_level2); skipped words; listened
+jsut_basic5000_BASIC5000_3475	text differs: 砂皿の→∅ (jsut-label text_level2); skipped words; listened
+jsut_basic5000_BASIC5000_3572	text differs: 嘴→唇 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_3577	text differs: ための→∅ (jsut-label text_level2); skipped words; listened
+jsut_basic5000_BASIC5000_3605	recording reads 何重 as いくえ (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_3639	recording reads 船 as せん (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_3679	text differs: 小→∅ (jsut-label text_level2); skipped words; listened
+jsut_basic5000_BASIC5000_3704	text differs: 的→∅ (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_3837	text differs: ∅→移動, 移動→∅ (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_3858	recording reads 黄疸 as おーたん (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_3953	recording reads 中国語版ウィキペディア as ちゅーごくばん）うぃきぺでぃあ (jsut-label kana_level3); text differs: 語→∅ (jsut-label text_level2); skipped words; listened
+jsut_basic5000_BASIC5000_3978	text differs: 務→車 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_3994	text differs: ∅→路, 路→∅ (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_4124	recording reads 複門 as ふくかど (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_4151	recording reads 自刃 as じしん (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_4158	recording reads 苗代式 as いなしろしき (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_4207	text differs: 記事→世界 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_4224	text differs: 暴→爆 (jsut-label text_level2); misread characters; listened
+jsut_basic5000_BASIC5000_4227	text differs: ∅→コ, コ→∅ (jsut-label text_level2); misreading; listened
+jsut_basic5000_BASIC5000_4286	recording reads 並行 as へんこー (jsut-label kana_level3); text differs: ∅→路, 路→∅ (jsut-label text_level2); misreading; listened
+jsut_basic5000_BASIC5000_4338	text differs: 館→行 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_4349	text differs: 様→型 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_4432	text differs: したり→∅, 激→苦 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_4457	recording reads 分 as ぶ (jsut-label kana_level3); text differs: らな→∅ (jsut-label text_level2); misreading; listened
+jsut_basic5000_BASIC5000_4461	text differs: 凧→旗, 凧→旗 (jsut-label text_level2); misread characters; listened
+jsut_basic5000_BASIC5000_4475	recording reads 郷士 as きょーし (jsut-label kana_level3); misreading; listened
+jsut_basic5000_BASIC5000_4536	recording reads ごみ箱 as ごみぶくろ (jsut-label kana_level3); text differs: 箱→袋 (jsut-label text_level2); wrong word; listened
+jsut_basic5000_BASIC5000_4810	text differs: 鎖→草 (jsut-label text_level2); misread characters; listened

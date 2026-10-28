@@ -1,7 +1,8 @@
 """Seen/unseen flags of target words (research plan §8.4).
 
 Target = kana inside <PHON_START>…<PHON_END> without accent marks. Training side = tags of the
-distinct training sentences (split set "train": basic5000 train + parallel 95 sentences).
+distinct training sentences (split set "train": basic5000 train + parallel 95 sentences), without
+the recordings in exclude.tsv. Dev and aux_eval targets keep excluded recordings (synthesis uses the text).
 seen = a training tag has the same kana and replaced the same surface (the plain-notation string
 the tag replaces). Same kana with another surface (好意 / 行為) counts as unseen.
 
@@ -15,7 +16,14 @@ Usage: uv run python scripts/data/05_seen_unseen.py
 import csv
 from collections import Counter, defaultdict
 
-from cv3lora.manifest import TAG, load_manifest, original_texts, surface_of_tag, target_kana
+from cv3lora.manifest import (
+    TAG,
+    load_excluded,
+    load_manifest,
+    original_texts,
+    surface_of_tag,
+    target_kana,
+)
 from cv3lora.paths import REPO, load_paths
 
 
@@ -27,9 +35,12 @@ def main() -> None:
         set_of = {r["id"]: r["set"] for r in csv.DictReader(f, delimiter="\t")}
 
     # Distinct sentences per set (first id in id order represents a sentence)
+    excluded = load_excluded()
     sents = defaultdict(dict)
     for r in sorted(rows, key=lambda r: r["id"]):
         s = set_of[r["id"]]
+        if s == "train" and r["id"] in excluded:
+            continue
         if s in ("train", "dev", "aux_eval"):
             sents[s].setdefault(r["text"], (r["file_id"], orig[r["id"]]))
 
