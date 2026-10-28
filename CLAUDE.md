@@ -27,4 +27,5 @@ LoRA for local reading/accent control in Fun-CosyVoice3 (UtterTune-style `<PHON_
   `token_root` and `work_root` (see paths.local.yaml).
 - Speech tokens are canonical once extracted (§10); do not re-extract or overwrite them.
 - JVS tokens are trimmed of leading/trailing silence by slicing `[start:end)` from `data/trim/jvs_token_spans.tsv`
-  (`scripts/data/06_trim_spans.py`, §9) in training and dev-loss loaders; JSUT tokens are used whole.
+  (`scripts/data/06_trim_spans.py`, §9; `cv3lora.trim.load_token_spans()`) in training, dev-loss and speaker-diagnostic
+  loaders; JSUT tokens are used whole.

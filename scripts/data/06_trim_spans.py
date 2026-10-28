@@ -8,12 +8,12 @@ Usage: uv run python scripts/data/06_trim_spans.py
 import csv
 
 from cv3lora.paths import REPO, load_paths
-from cv3lora.trim import speech_bounds, token_span
+from cv3lora.trim import SPANS, speech_bounds, token_span
 
 
 def main() -> None:
     paths = load_paths()
-    out = REPO / "data/trim/jvs_token_spans.tsv"
+    out = SPANS
     out.parent.mkdir(exist_ok=True)
     lines = ["id\tn_tokens\tstart\tend\tlead_s\ttrail_s"]
     for index in sorted(paths["token_root"].glob("jvs_*/index.tsv")):

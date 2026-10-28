@@ -7,8 +7,9 @@
   "dtype": "fp32",
   "prefix": "You are a helpful assistant.<|endofprompt|>",
   "token_root": "/workH/kmt/gr/features/cv3_speech_token",
+  "token_spans": "data/trim/jvs_token_spans.tsv",
   "split_seed": 20261027,
   "n_utts": 1665,
-  "compute_s": 19.7,
-  "date": "2026-10-28T21:30:06"
+  "compute_s": 17.5,
+  "date": "2026-10-28T21:35:11"
 }

@@ -4,15 +4,19 @@ JVS recordings have about 0.5 s of silence at each end; JSUT is already trimmed 
 Trimming is applied to the canonical speech tokens (25 Hz, one token per 40 ms), not by
 re-extracting them from trimmed audio (§10).
 """
+import csv
 from pathlib import Path
 
 import numpy as np
 import soundfile as sf
 
+from cv3lora.paths import REPO
+
 TOKEN_HZ = 25
 FRAME_S = 0.01
 TOP_DB = 40.0  # frames this far below the loudest frame of the utterance count as silence
 MARGIN_S = 0.1  # silence kept at each end, so weak onsets and devoiced endings are not cut
+SPANS = REPO / "data/trim/jvs_token_spans.tsv"  # written by scripts/data/06_trim_spans.py
 
 
 def speech_bounds(wav: Path) -> tuple[float, float, float]:
@@ -32,3 +36,9 @@ def token_span(start: float, end: float, n_tokens: int) -> tuple[int, int]:
     a = max(0, int(np.floor((start - MARGIN_S) * TOKEN_HZ)))
     b = min(n_tokens, int(np.ceil((end + MARGIN_S) * TOKEN_HZ)))
     return a, b
+
+
+def load_token_spans() -> dict[str, tuple[int, int]]:
+    """id -> token slice [start, end) for JVS utterances; ids not listed (JSUT) use all tokens."""
+    with open(SPANS) as f:
+        return {r["id"]: (int(r["start"]), int(r["end"])) for r in csv.DictReader(f, delimiter="\t")}

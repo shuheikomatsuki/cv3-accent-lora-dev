@@ -3,7 +3,8 @@
 Set A: JVS nonpara30 utterances whose sentence is not from BASIC5000 (different sentences per speaker),
 without EXCLUDE_A.
 Set B: the 5 parallel sentences held out of training (data/splits, diag_b), all JVS speakers + JSUT.
-Text is the plain transcript (no tags: the stock model has no tag tokens).
+Text is the plain transcript (no tags: the stock model has no tag tokens). JVS tokens are trimmed of
+leading/trailing silence as in training (cv3lora.trim).
 
 Output: results/speaker_diag/loss_<tag>.jsonl (id, set, speaker, nll_sum, n, n_correct; sorted by id)
         and loss_<tag>.provenance.json. n = speech tokens + eos.
@@ -21,6 +22,7 @@ from cv3lora.cosyvoice_loader import cosyvoice_commit, load_cosyvoice3
 from cv3lora.lm_loss import PREFIX, length_batches, sequence_loss, text_tokens
 from cv3lora.manifest import read_transcript
 from cv3lora.paths import REPO, load_paths
+from cv3lora.trim import SPANS, load_token_spans
 
 OUT = REPO / "results/speaker_diag"
 # Set A recordings not used (not in the training manifest, so not in exclude.tsv)
@@ -65,9 +67,12 @@ def main() -> None:
     lm.eval()
 
     items = diag_utterances(paths)
+    spans = load_token_spans()
     for it in items:
         it["tt"] = text_tokens(fe, it["text"])
-        it["st"] = torch.load(paths["token_root"] / it["tok"])
+        st = torch.load(paths["token_root"] / it["tok"])
+        a, b = spans.get(it["id"], (0, st.numel()))
+        it["st"] = st[a:b]
     batches = length_batches(items, lambda it: it["tt"].numel() + it["st"].numel() + 3,
                              args.max_positions)
     t0 = time.time()
@@ -85,7 +90,8 @@ def main() -> None:
         "tag": args.tag, "model_dir": str(paths["cosyvoice_model"]),
         "cosyvoice_commit": cosyvoice_commit(), "torch": torch.__version__,
         "gpu": torch.cuda.get_device_name(), "dtype": "fp32", "prefix": PREFIX,
-        "token_root": str(paths["token_root"]), "split_seed": split["seed"],
+        "token_root": str(paths["token_root"]),
+        "token_spans": str(SPANS.relative_to(REPO)), "split_seed": split["seed"],
         "n_utts": len(rows), "compute_s": round(time.time() - t0, 1),
         "date": datetime.now().isoformat(timespec="seconds"),
     }, indent=2, ensure_ascii=False) + "\n")
