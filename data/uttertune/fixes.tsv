@@ -177,3 +177,136 @@ jsut_basic5000_BASIC5000_4170	tag reading differed from the recording (アンモ
 jsut_basic5000_BASIC5000_4252	tag reading differed from the recording (タケズミ); replaced with the recorded reading チクタン (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_4398	tag reading differed from the recording (イ'ッサイ/タフセー); replaced with the recorded reading イ'ップ/タサイセー (jsut-label kana_level3, nucleus from e2e_symbol), not listened; transcript matched to the recorded word (transcript_fixes.tsv)
 jsut_basic5000_BASIC5000_4855	tag reading differed from the recording (ブキミ); replaced with the recorded reading フシギ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening; transcript matched to the recorded word (transcript_fixes.tsv)
+jsut_basic5000_BASIC5000_0013	accent mark right after ー/ッ/ン (チューシン'ブ), which is unusual in Tokyo Japanese; moved to the preceding mora (チューシ'ンブ), checked by listening
+jsut_basic5000_BASIC5000_0072	accent mark right after ー/ッ/ン (デッ'パ), which is unusual in Tokyo Japanese; moved to the preceding mora (デ'ッパ), checked by listening
+jsut_basic5000_BASIC5000_0167	accent mark right after ー/ッ/ン (バクスゲン'シャ), which is unusual in Tokyo Japanese; moved to the preceding mora (バクスゲ'ンシャ), checked by listening
+jsut_basic5000_BASIC5000_0384	accent mark right after ー/ッ/ン (ペッ'ト), which is unusual in Tokyo Japanese; moved to the preceding mora (ペ'ット), checked by listening
+jsut_basic5000_BASIC5000_0411	accent mark right after ー/ッ/ン (カンイベッ'ド), which is unusual in Tokyo Japanese; moved to the preceding mora (カンイベ'ッド), checked by listening
+jsut_basic5000_BASIC5000_0858	accent mark right after ー/ッ/ン (ホーケン/コッ'カ), which is unusual in Tokyo Japanese; moved to the preceding mora (ホーケン/コ'ッカ), checked by listening
+jsut_basic5000_BASIC5000_1019	accent mark right after ー/ッ/ン (セーネン'キ), which is unusual in Tokyo Japanese; moved to the preceding mora (セーネ'ンキ), checked by listening
+jsut_basic5000_BASIC5000_1098	accent mark right after ー/ッ/ン (フォイエルバッ'ハ), which is unusual in Tokyo Japanese; moved to the preceding mora (フォイエルバ'ッハ), checked by listening
+jsut_basic5000_BASIC5000_1165	accent mark right after ー/ッ/ン (ショーネン'タチ), which is unusual in Tokyo Japanese; moved to the preceding mora (ショーネ'ンタチ), checked by listening
+jsut_basic5000_BASIC5000_1287	accent mark right after ー/ッ/ン (ロッ'ク), which is unusual in Tokyo Japanese; moved to the preceding mora (ロ'ック), checked by listening
+jsut_basic5000_BASIC5000_1401	accent mark right after ー/ッ/ン (センシン'コク), which is unusual in Tokyo Japanese; moved to the preceding mora (センシ'ンコク), checked by listening
+jsut_basic5000_BASIC5000_1529	accent mark right after ー/ッ/ン (ギョーショー'ニン), which is unusual in Tokyo Japanese; moved to the preceding mora (ギョーショ'ーニン), checked by listening
+jsut_basic5000_BASIC5000_1530	accent mark right after ー/ッ/ン (ボーチョー'ニン), which is unusual in Tokyo Japanese; moved to the preceding mora (ボーチョ'ーニン), checked by listening
+jsut_basic5000_BASIC5000_1800	accent mark right after ー/ッ/ン (テッコーセー'サン), which is unusual in Tokyo Japanese; moved to the preceding mora (テッコーセ'ーサン), checked by listening
+jsut_basic5000_BASIC5000_1837	accent mark right after ー/ッ/ン (フリョー'タチ), which is unusual in Tokyo Japanese; moved to the preceding mora (フリョ'ータチ), checked by listening
+jsut_basic5000_BASIC5000_1944	accent mark right after ー/ッ/ン (セーフティーボッ'クス), which is unusual in Tokyo Japanese; moved to the preceding mora (セーフティーボ'ックス), checked by listening
+jsut_basic5000_BASIC5000_1948	accent mark right after ー/ッ/ン (コギッ'テ), which is unusual in Tokyo Japanese; moved to the preceding mora (コギ'ッテ), checked by listening
+jsut_basic5000_BASIC5000_2150	accent mark right after ー/ッ/ン (ホーモン'キャク), which is unusual in Tokyo Japanese; moved to the preceding mora (ホーモ'ンキャク), checked by listening
+jsut_basic5000_BASIC5000_2404	accent mark right after ー/ッ/ン (ドッ'チ), which is unusual in Tokyo Japanese; moved to the preceding mora (ド'ッチ), checked by listening
+jsut_basic5000_BASIC5000_2620	accent mark right after ー/ッ/ン (ドッ'チ), which is unusual in Tokyo Japanese; moved to the preceding mora (ド'ッチ), checked by listening
+jsut_basic5000_BASIC5000_2641	accent mark right after ー/ッ/ン (レッ'ド), which is unusual in Tokyo Japanese; moved to the preceding mora (レ'ッド), checked by listening
+jsut_basic5000_BASIC5000_2685	accent mark right after ー/ッ/ン (イッショーケン'メー), which is unusual in Tokyo Japanese; moved to the preceding mora (イッショーケ'ンメー), checked by listening
+jsut_basic5000_BASIC5000_3120	accent mark right after ー/ッ/ン (イッ'カ), which is unusual in Tokyo Japanese; moved to the preceding mora (イ'ッカ), checked by listening
+jsut_basic5000_BASIC5000_3336	accent mark right after ー/ッ/ン (ダンソー'ナイ), which is unusual in Tokyo Japanese; moved to the preceding mora (ダンソ'ーナイ), checked by listening
+jsut_basic5000_BASIC5000_3580	accent mark right after ー/ッ/ン (タイダン'ゴ), which is unusual in Tokyo Japanese; moved to the preceding mora (タイダ'ンゴ), checked by listening
+jsut_basic5000_BASIC5000_4002	accent mark right after ー/ッ/ン (ロッ'ク), which is unusual in Tokyo Japanese; moved to the preceding mora (ロ'ック), checked by listening
+jsut_basic5000_BASIC5000_4012	accent mark right after ー/ッ/ン (ナッ'クル), which is unusual in Tokyo Japanese; moved to the preceding mora (ナ'ックル), checked by listening
+jsut_basic5000_BASIC5000_4020	accent mark right after ー/ッ/ン (イッ'シ), which is unusual in Tokyo Japanese; moved to the preceding mora (イ'ッシ), checked by listening
+jsut_basic5000_BASIC5000_4065	accent mark right after ー/ッ/ン (ラーン'ガワ), which is unusual in Tokyo Japanese; moved to the preceding mora (ラ'ーンガワ), checked by listening
+jsut_basic5000_BASIC5000_4792	accent mark right after ー/ッ/ン (トラッ'ク), which is unusual in Tokyo Japanese; moved to the preceding mora (トラ'ック), checked by listening
+jsut_basic5000_BASIC5000_4895	accent mark right after ー/ッ/ン (ヒッ'シャ), which is unusual in Tokyo Japanese; moved to the preceding mora (ヒ'ッシャ), checked by listening
+jsut_basic5000_BASIC5000_4906	accent mark right after ー/ッ/ン (ジブンカッ'テ), which is unusual in Tokyo Japanese; moved to the preceding mora (ジブンカ'ッテ), checked by listening
+jsut_voiceactress100_VOICEACTRESS100_070	accent mark right after ー/ッ/ン (ボー'ハン), which is unusual in Tokyo Japanese; moved to the preceding mora (ボ'ーハン), checked by listening
+jvs001_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs002_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs003_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs004_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs005_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs006_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs007_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs008_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs009_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs010_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs011_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs012_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs013_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs014_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs015_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs016_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs017_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs018_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs019_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs020_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs021_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs022_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs023_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs024_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs025_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs026_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs027_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs028_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs029_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs030_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs031_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs032_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs033_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs034_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs035_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs036_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs037_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs038_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs039_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs040_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs041_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs042_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs043_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs044_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs045_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs046_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs047_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs048_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs049_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs050_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs051_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs052_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs053_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs054_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs055_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs056_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs057_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs058_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs059_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs060_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs061_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs062_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs063_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs064_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs065_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs066_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs067_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs068_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs069_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs070_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs071_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs072_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs073_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs074_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs075_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs076_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs077_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs078_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs079_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs080_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs081_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs082_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs083_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs084_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs085_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs086_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs087_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs088_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs089_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs090_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs091_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs092_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs093_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs094_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs095_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs096_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs097_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs098_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs099_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
+jvs100_parallel100_VOICEACTRESS100_070	same sentence as jsut_voiceactress100_VOICEACTRESS100_070: accent mark moved off ー (ボー'ハン -> ボ'ーハン) to keep the shared annotation identical; this speaker not listened
