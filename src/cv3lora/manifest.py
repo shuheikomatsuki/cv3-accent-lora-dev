@@ -45,7 +45,7 @@ def read_transcript(path: Path) -> dict[str, str]:
 def original_texts(paths: dict, rows: list[dict]) -> dict[str, str]:
     """Utterance id -> corpus transcript (plain notation) for manifest rows.
 
-    Transcript typos that the speaker read correctly are replaced by transcript_fixes.tsv.
+    Transcripts that differ from the recording (typos, paraphrases) are replaced by transcript_fixes.tsv.
     """
     with open(TRANSCRIPT_FIXES) as f:
         fixed = {r["id"]: r["text"] for r in csv.DictReader(f, delimiter="\t")}
