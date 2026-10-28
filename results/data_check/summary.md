@@ -6,7 +6,8 @@ Manifest rows 15097; wav durations read 15097; total 28.81 h.
 |---|---:|
 | duration_outlier | 150 |
 | jsut_label_text_differs | 142 |
-| nucleus_on_special_mora | 34 |
-| tag_kana_not_in_reading | 87 |
+| nucleus_on_special_mora | 33 |
+| surface_vs_kana | 1 |
+| tag_kana_not_in_reading | 43 |
 
 Details: issues.tsv. Findings are candidates for review, not exclusions.
