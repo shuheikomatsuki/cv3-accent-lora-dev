@@ -1,6 +1,7 @@
 """Speaker-information diagnostic, step 1: per-utterance teacher-forced loss (research plan §15.3).
 
-Set A: JVS nonpara30 utterances whose sentence is not from BASIC5000 (different sentences per speaker).
+Set A: JVS nonpara30 utterances whose sentence is not from BASIC5000 (different sentences per speaker),
+without EXCLUDE_A.
 Set B: the 5 parallel sentences held out of training (data/splits, diag_b), all JVS speakers + JSUT.
 Text is the plain transcript (no tags: the stock model has no tag tokens).
 
@@ -22,6 +23,8 @@ from cv3lora.manifest import read_transcript
 from cv3lora.paths import REPO, load_paths
 
 OUT = REPO / "results/speaker_diag"
+# Set A recordings not used (not in the training manifest, so not in exclude.tsv)
+EXCLUDE_A = {"jvs009_nonpara30_TRAVEL1000_0787": "cut off, 0.6 s (listened)"}
 
 
 def diag_utterances(paths: dict) -> list[dict]:
@@ -31,7 +34,7 @@ def diag_utterances(paths: dict) -> list[dict]:
         text_of = read_transcript(d / "nonpara30/transcripts_utf8.txt")
         for fid in sorted(w.stem for w in (d / "nonpara30/wav24kHz16bit").glob("*.wav")):
             text = text_of[fid]
-            if not fid.startswith("BASIC5000"):
+            if not fid.startswith("BASIC5000") and f"{d.name}_nonpara30_{fid}" not in EXCLUDE_A:
                 items.append({"id": f"{d.name}_nonpara30_{fid}", "set": "A", "speaker": d.name,
                               "text": text, "tok": f"jvs_nonpara30/{d.name}_nonpara30_{fid}.pt"})
     with open(REPO / "data/splits/utts.tsv") as f:

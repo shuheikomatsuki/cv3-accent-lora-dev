@@ -8,7 +8,7 @@
   "prefix": "You are a helpful assistant.<|endofprompt|>",
   "token_root": "/workH/kmt/gr/features/cv3_speech_token",
   "split_seed": 20261027,
-  "n_utts": 1666,
+  "n_utts": 1665,
   "compute_s": 19.7,
-  "date": "2026-10-27T11:38:13"
+  "date": "2026-10-28T21:30:06"
 }

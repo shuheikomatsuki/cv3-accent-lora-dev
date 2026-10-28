@@ -4,7 +4,7 @@ value = NLL per speech token; split seed 20261027
 
 ## Set A
 
-- JVS speakers 100, utterances 1161 (per speaker 6–19)
+- JVS speakers 100, utterances 1160 (per speaker 6–19)
 - train speakers: mean 3.5233, SD 0.2258 (nats per speech token)
 - split-half reliability of the per-speaker value (Spearman–Brown): 0.87
 
