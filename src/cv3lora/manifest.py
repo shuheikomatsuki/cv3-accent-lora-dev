@@ -11,6 +11,7 @@ from cv3lora.paths import REPO
 
 MANIFEST = REPO / "data/uttertune/jsutjvs_manifest.tsv"
 EXCLUDE = REPO / "data/uttertune/exclude.tsv"
+TRANSCRIPT_FIXES = REPO / "data/uttertune/transcript_fixes.tsv"
 TAG = re.compile(r"<PHON_START>(.*?)<PHON_END>")
 SMALL = set("ァィゥェォャュョヮ")
 
@@ -42,7 +43,12 @@ def read_transcript(path: Path) -> dict[str, str]:
 
 
 def original_texts(paths: dict, rows: list[dict]) -> dict[str, str]:
-    """Utterance id -> corpus transcript (plain notation) for manifest rows."""
+    """Utterance id -> corpus transcript (plain notation) for manifest rows.
+
+    Transcript typos that the speaker read correctly are replaced by transcript_fixes.tsv.
+    """
+    with open(TRANSCRIPT_FIXES) as f:
+        fixed = {r["id"]: r["text"] for r in csv.DictReader(f, delimiter="\t")}
     cache, out = {}, {}
     for r in rows:
         if r["corpus"] == "jsut":
@@ -51,7 +57,7 @@ def original_texts(paths: dict, rows: list[dict]) -> dict[str, str]:
             p = paths["jvs_root"] / r["speaker"] / r["subset"] / "transcripts_utf8.txt"
         if p not in cache:
             cache[p] = read_transcript(p)
-        out[r["id"]] = cache[p][r["file_id"]]
+        out[r["id"]] = fixed.get(r["id"], cache[p][r["file_id"]])
     return out
 
 

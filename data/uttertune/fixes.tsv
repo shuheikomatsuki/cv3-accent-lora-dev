@@ -30,11 +30,13 @@ jsut_basic5000_BASIC5000_0555	tag reading differed from the recording (チュー
 jsut_basic5000_BASIC5000_0598	tag reading differed from the recording (カンサツ); replaced with the recorded reading カンソク (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_0774	tag reading differed from the recording (ケ'ンクン); replaced with the recorded reading タケルクン (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_0895	tag reading differed from the recording (ミョーゴ'ニチ); replaced with the recorded reading アサ'ッテ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
+jsut_basic5000_BASIC5000_0900	transcript typo outside the tag; text matched to the recording (transcript_fixes.tsv)
 jsut_basic5000_BASIC5000_0930	tag reading differed from the recording (ヒ); replaced with the recorded reading ニ'チ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_1141	tag reading differed from the recording (ヒロ'ブミ); replaced with the recorded reading ヒロ'フミ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_1171	tag reading differed from the recording (グ'ン); replaced with the recorded reading ムレ' (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_1195	tag reading differed from the recording (カクタイ); replaced with the recorded reading キャクタイ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_1289	tag reading differed from the recording (カ'ク); replaced with the recorded reading カ'ド (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
+jsut_basic5000_BASIC5000_1397	transcript typo outside the tag; text matched to the recording (transcript_fixes.tsv)
 jsut_basic5000_BASIC5000_1519	tag reading differed from the recording (シャ); replaced with the recorded reading モノ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_1614	tag reading differed from the recording (キ'ン); replaced with the recorded reading カネ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_1774	tag reading differed from the recording (ナ'ニ); replaced with the recorded reading ナ'ン (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
@@ -42,19 +44,24 @@ jsut_basic5000_BASIC5000_2228	tag reading differed from the recording (ナ'ニ);
 jsut_basic5000_BASIC5000_2246	tag reading differed from the recording (リュウチショ); replaced with the recorded reading リューチジョ' (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_2281	tag reading differed from the recording (ナ'ニ); replaced with the recorded reading ナン (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_2421	tag reading differed from the recording (シ'ミズ); replaced with the recorded reading キヨ'ミズ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
+jsut_basic5000_BASIC5000_2475	transcript typo outside the tag; text matched to the recording (transcript_fixes.tsv)
 jsut_basic5000_BASIC5000_2534	tag reading differed from the recording (タ); replaced with the recorded reading ホカ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_2548	tag reading differed from the recording (イチ/ザ'イサン); replaced with the recorded reading ヒトザ'イサン (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_2800	tag reading differed from the recording (ヒャク'ゴー); replaced with the recorded reading ユリ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_3061	tag reading differed from the recording (トキ'ムネ); replaced with the recorded reading ジ'シュー (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_3291	tag reading differed from the recording (エ'ン); replaced with the recorded reading ソ'ノ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
+jsut_basic5000_BASIC5000_3302	transcript typo outside the tag; text matched to the recording (transcript_fixes.tsv)
 jsut_basic5000_BASIC5000_3537	tag reading differed from the recording (ス'トカ); replaced with the recorded reading スト'ケ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
+jsut_basic5000_BASIC5000_3676	transcript typo outside the tag; text matched to the recording (transcript_fixes.tsv)
 jsut_basic5000_BASIC5000_3717	tag reading differed from the recording (コーキュー/シナ); replaced with the recorded reading コーキューヒン (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_3940	tag reading differed from the recording (ノ'ヤマ/ジンベ'ータ); replaced with the recorded reading ノ'ヤマ/ジンペ'ータ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_3982	tag reading differed from the recording (サ'ヌキノクニ/シュゴ'ショク); replaced with the recorded reading サヌキ'コク/シュゴ'ショク (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
+jsut_basic5000_BASIC5000_4017	transcript typo outside the tag; text matched to the recording (transcript_fixes.tsv)
 jsut_basic5000_BASIC5000_4052	tag reading differed from the recording (ドキョー); replaced with the recorded reading ドッキョー (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_4203	tag reading differed from the recording (ボーシモ'ファン); replaced with the recorded reading ボーソ'ーファン (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_4341	tag reading differed from the recording (ナ'ニ); replaced with the recorded reading ナ'ン (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_4425	tag reading differed from the recording (ホ'ーシュ); replaced with the recorded reading ホ'ージュ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
+jsut_basic5000_BASIC5000_4568	transcript typo outside the tag; text matched to the recording (transcript_fixes.tsv)
 jsut_basic5000_BASIC5000_4648	tag reading differed from the recording (カ'ン); replaced with the recorded reading ヤカタ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_4688	tag reading differed from the recording (エダハマッ'セツ); replaced with the recorded reading シヨー/マッセツ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
 jsut_basic5000_BASIC5000_4780	tag reading differed from the recording (ハ'イ); replaced with the recorded reading サカズキ (jsut-label kana_level3, nucleus from e2e_symbol), checked by listening
