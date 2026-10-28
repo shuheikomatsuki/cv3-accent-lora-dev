@@ -66,3 +66,5 @@ jsut_basic5000_BASIC5000_4461	text differs: 凧→旗, 凧→旗 (jsut-label tex
 jsut_basic5000_BASIC5000_4475	recording reads 郷士 as きょーし (jsut-label kana_level3); misreading; listened
 jsut_basic5000_BASIC5000_4536	recording reads ごみ箱 as ごみぶくろ (jsut-label kana_level3); text differs: 箱→袋 (jsut-label text_level2); wrong word; listened
 jsut_basic5000_BASIC5000_4810	text differs: 鎖→草 (jsut-label text_level2); misread characters; listened
+jsut_basic5000_BASIC5000_2158	recording reads 赤球 as せっきゅう (jsut-label kana_level3); tag アカダマ kept as the evaluation target; listened
+jsut_basic5000_BASIC5000_3480	recording reads 強大 as 強力 (jsut-label kana_level3); text differs: 大→力 (jsut-label text_level2); tag キョーダイ kept as the evaluation target; listened
