@@ -3,12 +3,13 @@
 Target = kana inside <PHON_START>…<PHON_END> without accent marks. Training side = tags of the
 distinct training sentences (split set "train": basic5000 train + parallel 95 sentences), without
 the recordings in exclude.tsv. Dev and aux_eval targets keep excluded recordings (synthesis uses the text).
-seen = a training tag has the same kana and replaced the same surface (the plain-notation string
-the tag replaces). Same kana with another surface (好意 / 行為) counts as unseen.
+seen = a training tag has the same kana. The model only receives the kana inside the tag, so the
+surface it replaces (the plain-notation string) does not matter: 一番 / いちばん and 好意 / 行為 are seen.
+surface_seen (reference, the earlier rule) = a training tag has the same kana and replaced the same surface.
 
 Output data/splits/targets.tsv, one row per distinct evaluated sentence:
   set (dev / aux_eval / easy_50 / difficult_50), id, span (tag content), kana, surface,
-  seen, kana_seen (the kana alone appears in a training tag),
+  seen, surface_seen,
   n_train (training sentences with the kana in a tag), train_surfaces,
   n_untagged (training sentences containing the surface outside the tag; not used for seen)
 Usage: uv run python scripts/data/05_seen_unseen.py
@@ -65,19 +66,19 @@ def main() -> None:
         kana, surface = target_kana(span), surface_of_tag(text, plain) or ""
         tr = train_surf.get(kana, [])
         n_untagged = sum(surface in u for u in untagged) if surface else 0
-        out.append([s, uid, span, kana, surface, int(surface in tr), int(bool(tr)), len(tr),
+        out.append([s, uid, span, kana, surface, int(bool(tr)), int(surface in tr), len(tr),
                     " ".join(sorted(set(tr))), n_untagged])
 
     with open(REPO / "data/splits/targets.tsv", "w", newline="") as f:
         w = csv.writer(f, delimiter="\t", lineterminator="\n")
-        w.writerow(["set", "id", "span", "kana", "surface", "seen", "kana_seen", "n_train",
+        w.writerow(["set", "id", "span", "kana", "surface", "seen", "surface_seen", "n_train",
                     "train_surfaces", "n_untagged"])
         w.writerows(out)
     n, seen = Counter(o[0] for o in out), Counter(o[0] for o in out if o[5])
-    other = Counter(o[0] for o in out if o[6] and not o[5])
+    surface_seen = Counter(o[0] for o in out if o[6])
     for s in n:
         print(f"{s}: {n[s]} sentences, seen {seen[s]} ({seen[s] / n[s]:.0%}), "
-              f"same kana with another surface only {other[s]}")
+              f"surface_seen (earlier rule) {surface_seen[s]}")
 
 
 if __name__ == "__main__":
