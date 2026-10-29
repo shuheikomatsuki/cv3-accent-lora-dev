@@ -29,7 +29,15 @@ from collections import Counter, defaultdict
 import soundfile as sf
 import yaml
 
-from cv3lora.manifest import TAG, load_manifest, morae, original_texts, surface_of_tag, target_kana
+from cv3lora.manifest import (
+    EVAL,
+    TAG,
+    load_manifest,
+    morae,
+    original_texts,
+    surface_of_tag,
+    target_kana,
+)
 from cv3lora.paths import REPO, load_paths
 
 OUT = REPO / "results/data_check"
@@ -197,9 +205,8 @@ def main() -> None:
                 add(r["id"], "tag_kana_not_in_reading", f"{m.group(1)} | {e['kana_level3']}")
 
     # Evaluation TSVs
-    ev = paths["uttertune_root"] / "data/eval"
     for name in ("easy_50", "difficult_50"):
-        with open(ev / f"{name}.tsv") as f:
+        with open(EVAL / f"{name}.tsv") as f:
             for r in csv.DictReader(f, delimiter="\t"):
                 uid = f"{name}_{r['id']}"
                 check_tag(add, uid, r["phon_tagged"], r["vanilla"])

@@ -12,6 +12,7 @@ from cv3lora.paths import REPO
 MANIFEST = REPO / "data/uttertune/jsutjvs_manifest.tsv"
 EXCLUDE = REPO / "data/uttertune/exclude.tsv"
 TRANSCRIPT_FIXES = REPO / "data/uttertune/transcript_fixes.tsv"
+EVAL = REPO / "data/eval"  # easy_50 / difficult_50 (UtterTune's, with fixes in fixes.tsv)
 TAG = re.compile(r"<PHON_START>(.*?)<PHON_END>")
 SMALL = set("ァィゥェォャュョヮ")
 

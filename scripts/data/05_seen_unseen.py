@@ -18,6 +18,7 @@ import csv
 from collections import Counter, defaultdict
 
 from cv3lora.manifest import (
+    EVAL,
     TAG,
     load_excluded,
     load_manifest,
@@ -56,7 +57,7 @@ def main() -> None:
     items = [(s, fid, text, plain) for s in ("dev", "aux_eval")
              for text, (fid, plain) in sorted(sents[s].items(), key=lambda kv: kv[1][0])]
     for name in ("easy_50", "difficult_50"):
-        with open(paths["uttertune_root"] / f"data/eval/{name}.tsv") as f:
+        with open(EVAL / f"{name}.tsv") as f:
             items += [(name, r["id"], r["phon_tagged"], r["vanilla"])
                       for r in csv.DictReader(f, delimiter="\t")]
 

@@ -23,4 +23,4 @@ uv run python scripts/data/03_extract_tokens.py jsut_basic5000 --limit 3
 ## Data and licenses
 
 Audio, speech tokens and model weights are not distributed. JVS and JSUT must be obtained from their
-official sites. Files under `data/uttertune/` derive from UtterTune data (CC BY-SA 4.0).
+official sites. Files under `data/uttertune/` and `data/eval/` derive from UtterTune data (CC BY-SA 4.0).

@@ -22,7 +22,10 @@ LoRA for local reading/accent control in Fun-CosyVoice3 (UtterTune-style `<PHON_
   training side of seen/unseen, and by any evaluation that uses the recordings themselves (e.g. §15.4
   condition O); synthesis from dev/aux_eval text keeps them. Transcripts that differ from the recording (typos,
   paraphrases) are overridden by `transcript_fixes.tsv` (`original_texts()`); build CER references from the
-  same fixed text that synthesis takes, never from the corpus transcript files. `data/splits/`: split and seen/unseen flags. `results/`: small tables and figures.
+  same fixed text that synthesis takes, never from the corpus transcript files. `data/eval/`:
+  `easy_50` / `difficult_50` eval TSVs (`EVAL`; UtterTune original committed first, fixes in
+  `data/eval/fixes.tsv`); `katakana_50` has no tags and is read from UtterTune.
+  `data/splits/`: split and seen/unseen flags. `results/`: small tables and figures.
 - Never commit audio, speech tokens, model weights or checkpoints. They live under
   `token_root` and `work_root` (see paths.local.yaml).
 - Speech tokens are canonical once extracted (§10); do not re-extract or overwrite them.
