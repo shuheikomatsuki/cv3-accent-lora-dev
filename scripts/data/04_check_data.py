@@ -5,7 +5,8 @@ Checks, one issues.tsv row per finding (id, check, detail):
   audio_unreadable / token_length              wav header; tokens vs duration at 25 Hz
   duration_outlier                             parallel100: robust z of duration among the speakers
                                                of the same sentence; basic5000: seconds per mora
-  text_vs_transcript                           text outside the tag differs from the corpus transcript
+  text_vs_transcript                           text outside the tag differs from the corpus transcript;
+                                               JVS rows must match the JSUT row up to accent marks
   surface_vs_kana                              kana characters of the replaced surface (e.g. が in 貝がら)
                                                are not found, in order, in the tag kana
   jsut_label_text_differs                      basic5000: jsut-label says the recording differs from
@@ -178,8 +179,10 @@ def main() -> None:
                 add(uid, "text_vs_transcript", f"{text} | {orig[uid]}")
             continue
         if r["corpus"] == "jvs":  # same text as the JSUT row, which is checked once
-            if text != jsut_text[r["file_id"]]:
+            if text.replace("'", "") != jsut_text[r["file_id"]].replace("'", ""):
                 add(uid, "text_vs_transcript", f"differs from the JSUT row: {text}")
+            elif text != jsut_text[r["file_id"]]:  # accent marks follow each recording (fixes.tsv)
+                check_tag(add, uid, text, orig[uid])
             continue
         check_tag(add, uid, text, orig[uid])
     for r in rows:
