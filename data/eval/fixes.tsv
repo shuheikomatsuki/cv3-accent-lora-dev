@@ -1,0 +1,11 @@
+id	reason
+easy_50_2	accent イチニチ -> イチニチ'; checked by eye and by reading aloud (the eval TSVs have no recordings)
+easy_50_6	accent オト -> オト'; checked by eye and by reading aloud (the eval TSVs have no recordings)
+easy_50_17	accent タビ -> タビ'; checked by eye and by reading aloud (the eval TSVs have no recordings)
+easy_50_19	accent ハシ -> ハシ'; checked by eye and by reading aloud (the eval TSVs have no recordings)
+easy_50_23	reading コモリ/カ -> コモリ'ウタ (子守歌); checked by eye and by reading aloud (the eval TSVs have no recordings)
+easy_50_32	reading アイダ -> マ (間); checked by eye and by reading aloud (the eval TSVs have no recordings)
+easy_50_33	accent ツカレ -> ツカレ'; checked by eye and by reading aloud (the eval TSVs have no recordings)
+easy_50_44	reading シン -> ココ'ロ (心); checked by eye and by reading aloud (the eval TSVs have no recordings)
+easy_50_50	reading ユーグレ'ジ -> ユーグレドキ (夕暮れ時); checked by eye and by reading aloud (the eval TSVs have no recordings)
+difficult_50_11	accent シンシャク -> シ'ンシャク; checked by eye and by reading aloud (the eval TSVs have no recordings)
