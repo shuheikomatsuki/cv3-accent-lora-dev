@@ -1,0 +1,16 @@
+key	kana	form	text	rec_tokens	seed	model	n_text	n_tokens	n_raw	max_len	stop	ratio_to_rec	sha256	path
+C_ハシ	ハシ	ハシ	これは<PHON_START>ハシ<PHON_END>だと思います。		0	lora	14	47	47	280	eos		493730acdaf80cf2fa740e85069c9e8efc2d0f7fd614d1cb9b9150c87a433da4	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハシ_s0.pt
+C_ハシ	ハシ	ハシ	これは<PHON_START>ハシ<PHON_END>だと思います。		1	lora	14	45	45	280	eos		b6b00d51653bf044b68d935684c454941c068ab98a2dd4531d8e17a9dae8467b	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハシ_s1.pt
+C_ハシ	ハシ	ハシ	これは<PHON_START>ハシ<PHON_END>だと思います。		2	lora	14	41	41	280	eos		984f16e89754e8f8b677aedcc40692aa9dfeda2a45a2b77aa04cdc784003358f	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハシ_s2.pt
+C_ハシ'	ハシ	ハシ'	これは<PHON_START>ハシ'<PHON_END>だと思います。		0	lora	15	43	43	300	eos		897bbab07be95d5b56ed4a67cee2f4ef64241123dee3ef1c0bf76fbab4e02d8f	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハシ'_s0.pt
+C_ハシ'	ハシ	ハシ'	これは<PHON_START>ハシ'<PHON_END>だと思います。		1	lora	15	76	76	300	eos		66dd6de45198dea6d6fc15ac71a3fadef2674cb7f3a407c4a9ce2c803d10c20a	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハシ'_s1.pt
+C_ハシ'	ハシ	ハシ'	これは<PHON_START>ハシ'<PHON_END>だと思います。		2	lora	15	43	43	300	eos		e32754df161c82664cf638463db72413ca1a7a3e4f734d39b1899b7a492e1a91	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハシ'_s2.pt
+C_ハ'シ	ハシ	ハ'シ	これは<PHON_START>ハ'シ<PHON_END>だと思います。		0	lora	15	43	43	300	eos		2da1e1b741509917cd89a4e39dc0907c581f924e0b10ed25ece231aedc2fa82a	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハ'シ_s0.pt
+C_ハ'シ	ハシ	ハ'シ	これは<PHON_START>ハ'シ<PHON_END>だと思います。		1	lora	15	43	43	300	eos		e88ff604b943438cfe70619d50ac671557b86bffae9b0efe44ada8050c8d8e10	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハ'シ_s1.pt
+C_ハ'シ	ハシ	ハ'シ	これは<PHON_START>ハ'シ<PHON_END>だと思います。		2	lora	15	47	47	300	eos		0ebb70691afb570244c4922efc6aac339de58d73d83fd4b8ce340961a4f1b22f	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハ'シ_s2.pt
+C_ハナ	ハナ	ハナ	これは<PHON_START>ハナ<PHON_END>だと思います。		0	lora	14	45	45	280	eos		1e2993b3584370d48f836921bbb54c07fb433da4e764dc7d75e1282fa669979f	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハナ_s0.pt
+C_ハナ	ハナ	ハナ	これは<PHON_START>ハナ<PHON_END>だと思います。		1	lora	14	39	39	280	eos		9eb89a70dbaff2de1726b7829edb38bf96f27d6d887a350759b97203b720f555	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハナ_s1.pt
+C_ハナ	ハナ	ハナ	これは<PHON_START>ハナ<PHON_END>だと思います。		2	lora	14	42	42	280	eos		f228bf81e09e2099b3d0ee06b1b0ce96d9db7dea9880b9a0fa678e003fd7353e	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハナ_s2.pt
+C_ハナ'	ハナ	ハナ'	これは<PHON_START>ハナ'<PHON_END>だと思います。		0	lora	15	44	44	300	eos		065e06835f0b8ec05a66908e9e5b0175e4fd526a354b6bcd7ad0ea8129a255b5	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハナ'_s0.pt
+C_ハナ'	ハナ	ハナ'	これは<PHON_START>ハナ'<PHON_END>だと思います。		1	lora	15	44	44	300	eos		8f5c40871c952dfbbbe31bceb18b7ff80cf70bc669846ed9c072525c507fbab1	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハナ'_s1.pt
+C_ハナ'	ハナ	ハナ'	これは<PHON_START>ハナ'<PHON_END>だと思います。		2	lora	15	37	37	300	eos		5d7cf4f21df6cb917321340d024c1f6037edf5def218cf6caf9875606d52eed2	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_pilot/C_ハナ'_s2.pt

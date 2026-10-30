@@ -11,6 +11,9 @@ LoRA for local reading/accent control in Fun-CosyVoice3 (UtterTune-style `<PHON_
 - Versions are pinned in `pyproject.toml` (Python 3.10, torch 2.7.1+cu128, onnxruntime-gpu 1.22.0); see the comments there before changing any pin.
 - `third_party/CosyVoice` is a submodule pinned to official 074ca6d. Never edit it; patch at runtime in `src/cv3lora/` instead.
 - Load the model with `cv3lora.cosyvoice_loader.load_cosyvoice3()` (sets sys.path, disables wetext).
+- peft is not a project dependency: never `uv run --with peft` (it swaps torch). It is installed at
+  `/workH/kmt/gr/cv3lora_work/pylib/peft017` (peft 0.17.0, accelerate 1.10.1, `--no-deps`); run LoRA scripts with
+  `PYTHONPATH=/workH/kmt/gr/cv3lora_work/pylib/peft017 uv run python …`.
 
 ## Layout
 - `src/cv3lora/`: importable code. `scripts/<stage>/NN_*.py`: entry points, run in number order.

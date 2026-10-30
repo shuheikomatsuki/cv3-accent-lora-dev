@@ -29,11 +29,8 @@ def length_batches(items: list, length, max_positions: int) -> list[list]:
     return batches
 
 
-def sequence_loss(lm, text_toks: list[torch.Tensor], speech_toks: list[torch.Tensor]):
-    """Per-sequence (sum of cross-entropy in nats, number of targets, number of argmax hits).
-
-    The sums are differentiable unless called under torch.inference_mode().
-    """
+def sequence_logits(lm, text_toks: list[torch.Tensor], speech_toks: list[torch.Tensor]):
+    """(logits of the target positions [N, V] in fp32, their targets [N], row of each target [N], targets per row)."""
     dev = lm.speech_embedding.weight.device
     emb_text = lm.llm.model.model.embed_tokens
     sos = lm.speech_embedding.weight[lm.sos][None]
@@ -58,10 +55,17 @@ def sequence_loss(lm, text_toks: list[torch.Tensor], speech_toks: list[torch.Ten
     h = lm.llm.model.model(inputs_embeds=X, attention_mask=M, return_dict=True).last_hidden_state
     sel = Y != -100
     logits = lm.llm_decoder(h[sel]).float()
-    ce = F.cross_entropy(logits, Y[sel], reduction="none")
-    hit = (logits.argmax(-1) == Y[sel]).long()
-    row = sel.nonzero()[:, 0]
-    n = sel.sum(1)
-    ce_sum = torch.zeros(len(xs), device=dev).index_add(0, row, ce)
-    n_hit = torch.zeros(len(xs), device=dev, dtype=torch.long).index_add(0, row, hit)
+    return logits, Y[sel], sel.nonzero()[:, 0], sel.sum(1)
+
+
+def sequence_loss(lm, text_toks: list[torch.Tensor], speech_toks: list[torch.Tensor]):
+    """Per-sequence (sum of cross-entropy in nats, number of targets, number of argmax hits).
+
+    The sums are differentiable unless called under torch.inference_mode().
+    """
+    logits, y, row, n = sequence_logits(lm, text_toks, speech_toks)
+    ce = F.cross_entropy(logits, y, reduction="none")
+    hit = (logits.argmax(-1) == y).long()
+    ce_sum = torch.zeros(len(n), device=logits.device).index_add(0, row, ce)
+    n_hit = torch.zeros(len(n), device=logits.device, dtype=torch.long).index_add(0, row, hit)
     return ce_sum, n, n_hit

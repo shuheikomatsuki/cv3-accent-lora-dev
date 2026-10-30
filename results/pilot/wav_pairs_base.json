@@ -1,0 +1,15 @@
+{
+  "n_wavs": 60,
+  "n_texts": 15,
+  "refs": [
+    "jvs029",
+    "jvs034",
+    "jvs053",
+    "jvs086"
+  ],
+  "flow_seed": 0,
+  "all_token_sha_ok": true,
+  "max_abs_dur_err_s": 0.0,
+  "rerun_max_abs_diff": 0.0,
+  "min_mean_abs_diff_between_refs": 0.017060907557606697
+}

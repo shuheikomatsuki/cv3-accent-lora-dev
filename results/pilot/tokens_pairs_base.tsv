@@ -1,0 +1,16 @@
+key	kana	form	text	rec_tokens	seed	model	n_text	n_tokens	n_raw	max_len	stop	ratio_to_rec	sha256	path
+A_ハシ_端	ハシ	端（平板）	これは端だと思います。		0	base	11	27	27	220	eos		df78358193da2a4fb660d0a1045c8dde53170997a9605c13beea5aba1b8bd315	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_端_s0.pt
+A_ハシ_端	ハシ	端（平板）	これは端だと思います。		1	base	11	31	31	220	eos		915308f48d1d512fee6634ba952fb241a7cd452f1b79501b1489c9d964e4e1f0	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_端_s1.pt
+A_ハシ_端	ハシ	端（平板）	これは端だと思います。		2	base	11	28	28	220	eos		d5431c979dda8e145c1dfef88d273a241cbe24107059223a94f74f445fad63ff	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_端_s2.pt
+A_ハシ_橋	ハシ	橋（尾高）	これは橋だと思います。		0	base	11	12	12	220	eos		c55c8ced143d7ce15f871b78ac5f08a63c811a332ed285175419082e06d51fff	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_橋_s0.pt
+A_ハシ_橋	ハシ	橋（尾高）	これは橋だと思います。		1	base	11	20	20	220	eos		a6f5b316c40801f2df0a904c07ae5e1fe8a4b633e23faa4ee4c17db8937b50e2	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_橋_s1.pt
+A_ハシ_橋	ハシ	橋（尾高）	これは橋だと思います。		2	base	11	24	24	220	eos		48f72846a6518e720ad6b67015b1e7bb9ee40c0f1ce2c724674e76d2cd07c3f9	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_橋_s2.pt
+A_ハシ_箸	ハシ	箸（頭高）	これは箸だと思います。		0	base	11	26	26	220	eos		18e53649ec53323cd15545d6336230411b5c284624277d4929bf7baa1a26e30e	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_箸_s0.pt
+A_ハシ_箸	ハシ	箸（頭高）	これは箸だと思います。		1	base	11	27	27	220	eos		d6d91e391543c3f1c87ce417d5f3d612908ec7acd96727ef851708014d1be8ab	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_箸_s1.pt
+A_ハシ_箸	ハシ	箸（頭高）	これは箸だと思います。		2	base	11	30	30	220	eos		e24991c4392da26474588092c39badaab4cf6e4aa0c0432bfce60799505ea5ed	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハシ_箸_s2.pt
+A_ハナ_鼻	ハナ	鼻（平板）	これは鼻だと思います。		0	base	11	43	43	220	eos		5ec3ee642f7538dbede659c4cb5968c602111a66aafcd0c386cd98e8f64d97be	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハナ_鼻_s0.pt
+A_ハナ_鼻	ハナ	鼻（平板）	これは鼻だと思います。		1	base	11	28	28	220	eos		a0fe06e15e8652946cd03320658889b659977132d959d4bca910b4f33bf0564a	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハナ_鼻_s1.pt
+A_ハナ_鼻	ハナ	鼻（平板）	これは鼻だと思います。		2	base	11	33	33	220	eos		b256b2775255fd14e99a14d57dd331333280d3204dd339462f7102e07d6dbc01	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハナ_鼻_s2.pt
+A_ハナ_花	ハナ	花（尾高）	これは花だと思います。		0	base	11	27	27	220	eos		3e90a5e5638463b54b2ba88cedd81028b36decbfc1025c2ea5069d98d6d3d72f	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハナ_花_s0.pt
+A_ハナ_花	ハナ	花（尾高）	これは花だと思います。		1	base	11	26	26	220	eos		0a97674b047db0502869c0b835a91f85a97bdac9590f8c3f520128a4529dd43b	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハナ_花_s1.pt
+A_ハナ_花	ハナ	花（尾高）	これは花だと思います。		2	base	11	26	26	220	eos		c9d070c7ea386bdd83d7b06df14038b838876fe5b73c3cf58c962f7b06863acb	/workH/kmt/gr/cv3lora_work/pilot/tokens/pairs_base/A_ハナ_花_s2.pt

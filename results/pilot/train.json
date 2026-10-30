@@ -1,0 +1,84 @@
+{
+  "args": {
+    "n_utts": 300,
+    "select_seed": 20261027,
+    "steps": 300,
+    "bs": 8,
+    "lr": 0.0001,
+    "warmup_ratio": 0.05,
+    "clip": 1.0,
+    "eval_every": 50,
+    "seed": 0
+  },
+  "lora": {
+    "r": 16,
+    "alpha": 64,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "optimizer": "AdamW betas (0.9, 0.98) eps 1e-8, weight decay 0",
+  "schedule": "linear warmup 15 steps, then cosine to 0",
+  "autocast": "bf16 (base weights fp32)",
+  "n_train_pool": 11716,
+  "n_train_used": 300,
+  "n_train_tagged": 300,
+  "n_dev": 249,
+  "prefix": "You are a helpful assistant.<|endofprompt|>",
+  "adapter": "/workH/kmt/gr/cv3lora_work/pilot/adapter.pt",
+  "peak_mem_gb": 7.05,
+  "train_s_excluding_eval": 45.7,
+  "s_per_step": 0.152,
+  "checks": {
+    "tag_tokens": {
+      "probe": "今日は<PHON_START>ア'メ<PHON_END>が降る。",
+      "ids": [
+        2610,
+        525,
+        264,
+        10950,
+        17847,
+        13,
+        151646,
+        36171,
+        8903,
+        15322,
+        151924,
+        38780,
+        6,
+        38750,
+        151925,
+        28195,
+        99457,
+        29269,
+        1773
+      ],
+      "prefix_ids_unchanged": true,
+      "tags_single_tokens": true
+    },
+    "weights": {
+      "frozen_params_changed": [],
+      "n_frozen_params": 292,
+      "other_rows_max_abs_diff": 0.0,
+      "n_other_rows": 151934,
+      "tag_rows_dist_from_init": [
+        0.05197881534695625,
+        0.05571278557181358
+      ]
+    },
+    "reload_max_abs_logit_diff": 0.0,
+    "loss": {
+      "all_finite": true,
+      "first20_mean": 3.8332750000000004,
+      "last20_mean": 3.244217
+    }
+  },
+  "cosyvoice_commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+  "date": "2026-10-30T16:20:52"
+}
