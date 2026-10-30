@@ -1,0 +1,68 @@
+{
+  "args": {
+    "steps": 300,
+    "total": 20000,
+    "bs": 8,
+    "lr": 0.0001,
+    "clip": 1.0,
+    "seed": 0
+  },
+  "n_train": 11716,
+  "n_dev": 249,
+  "data_load_s": 7.5,
+  "lengths_positions": {
+    "full_train": {
+      "p0": 56,
+      "p50": 191,
+      "p90": 291,
+      "p99": 410,
+      "p100": 576
+    },
+    "pilot_300": {
+      "p0": 79,
+      "p50": 188,
+      "p90": 284,
+      "p99": 395,
+      "p100": 426
+    },
+    "full_train_mean": 197.0397746671219,
+    "pilot_300_mean": 195.94333333333333
+  },
+  "worst_case_step": {
+    "peak_mem_gb": 8.76,
+    "reserved_gb": 9.26,
+    "positions": [
+      506,
+      511,
+      515,
+      519,
+      541,
+      549,
+      571,
+      576
+    ]
+  },
+  "random_steps_peak_mem_gb": 8.26,
+  "s_per_step_mean": 0.1386,
+  "s_per_step_median": 0.1449,
+  "s_per_step_p90": 0.1505,
+  "grad_norm": {
+    "min": 1.4292,
+    "median": 2.0997500000000002,
+    "max": 5.4614,
+    "share_clipped": 1.0
+  },
+  "dev_tf_loss_s": 3.1,
+  "dev_loss_after": 3.8924,
+  "adapter_save_s": 0.03,
+  "adapter_mb": 8.3,
+  "steps_per_epoch": 1464,
+  "estimate_20000_steps_min": {
+    "train": 46.2,
+    "dev_loss_every_1000": 1.0
+  },
+  "cosyvoice_commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+  "date": "2026-10-30T19:34:08"
+}

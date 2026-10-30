@@ -20,43 +20,15 @@ import torch
 import torch.nn.functional as F
 
 from cv3lora.cosyvoice_loader import cosyvoice_commit, load_cosyvoice3
-from cv3lora.lm_loss import PREFIX, length_batches, sequence_logits, sequence_loss, text_tokens
+from cv3lora.lm_loss import PREFIX, sequence_logits, text_tokens
 from cv3lora.lora import TAG_IDS, apply_lora, load_adapter, register_tags, save_adapter
 from cv3lora.paths import REPO, load_paths
+from cv3lora.train_loop import batches, lr_at, tf_loss
 from cv3lora.train_data import load_set
 
 RESULTS = REPO / "results/pilot"
 TRAIN_COLS = ["step", "loss", "n_tok", "grad_norm", "lr", "nonfinite", "tag0_norm", "tag1_norm",
               "tag0_dist", "tag1_dist", "lora_norm", "sec"]
-
-
-def tf_loss(lm, items, max_positions=12000) -> tuple[float, float]:
-    """Token-weighted teacher-forced loss and argmax accuracy over items (eval mode, no grad)."""
-    was = lm.training
-    lm.eval()
-    ce = n = hit = 0
-    with torch.inference_mode():
-        for b in length_batches(items, lambda it: it["tt"].numel() + it["st"].numel() + 3, max_positions):
-            c, k, h = sequence_loss(lm, [it["tt"] for it in b], [it["st"] for it in b])
-            ce, n, hit = ce + c.sum().item(), n + k.sum().item(), hit + h.sum().item()
-    lm.train(was)
-    return ce / n, hit / n
-
-
-def batches(items, bs, seed):
-    """Endless stream of batches; each epoch is a fresh shuffle (every utterance equally often, §11)."""
-    rng = random.Random(seed)
-    while True:
-        order = items[:]
-        rng.shuffle(order)
-        for i in range(0, len(order) - bs + 1, bs):
-            yield order[i: i + bs]
-
-
-def lr_at(step, total, warmup, peak):
-    if step < warmup:
-        return peak * (step + 1) / warmup
-    return peak * 0.5 * (1 + math.cos(math.pi * (step - warmup) / max(1, total - warmup)))
 
 
 def main() -> None:
