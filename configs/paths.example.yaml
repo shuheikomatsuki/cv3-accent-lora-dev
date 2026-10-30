@@ -6,3 +6,6 @@ jsut_label_root: /path/to/jsut-label
 uttertune_root: /path/to/UtterTune
 token_root: /path/to/features/cv3_speech_token
 work_root: /path/to/cv3lora_work
+libritts_r_root: /path/to/LibriTTS_R
+libritts_root: /path/to/LibriTTS
+jecs_root: /path/to/jecs_ver1
