@@ -1,0 +1,47 @@
+{
+  "args": {
+    "run": "main",
+    "steps": 20000,
+    "bs": 8,
+    "lr": 0.0001,
+    "warmup_ratio": 0.05,
+    "clip": 1.0,
+    "save_every": 1000,
+    "seed": 0,
+    "subset_n": 250,
+    "subset_seed": 20261030,
+    "max_nonfinite_run": 10,
+    "resume": false
+  },
+  "lora": {
+    "r": 16,
+    "alpha": 64,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "optimizer": "AdamW betas (0.9, 0.98) eps 1e-8, weight decay 0",
+  "autocast": "bf16 (base weights fp32)",
+  "prefix": "You are a helpful assistant.<|endofprompt|>",
+  "n_train": 11716,
+  "n_train_tagged": 11706,
+  "n_dev": 249,
+  "ckpt_dir": "/workH/kmt/gr/cv3lora_work/train/main/ckpt",
+  "cosyvoice_commit": "074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc",
+  "torch": "2.7.1+cu128",
+  "gpu": "NVIDIA RTX PRO 4000 Blackwell",
+  "status": "done",
+  "started": "2026-10-30T20:00:49",
+  "updated": "2026-10-30T20:52:45",
+  "last_saved_step": 20000,
+  "peak_mem_gb_this_process": 8.61,
+  "train_s_excluding_eval": 2816.8,
+  "s_per_step": 0.1408,
+  "nonfinite_steps": 0,
+  "frozen_params_changed": [],
+  "n_frozen_params": 292
+}
