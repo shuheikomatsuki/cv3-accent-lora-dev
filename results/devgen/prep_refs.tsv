@@ -1,0 +1,9 @@
+cond	id	seed	ref_lang	ref_gender	ref_speaker	wav	wav16	dur_raw	dur_trim	lufs_in	gain_db	peak	clip
+refs			en	M	1272	/workH/kmt/gr/data/LibriTTS_R/dev-clean/1272/141231/1272_141231_000034_000003.wav	/workH/kmt/gr/cv3lora_work/devgen/eval16k/refs/en_1272.wav	6.1600	6.1600	-18.7156	-4.2844	0.5495	False
+refs			en	F	1673	/workH/kmt/gr/data/LibriTTS_R/dev-clean/1673/143397/1673_143397_000031_000000.wav	/workH/kmt/gr/cv3lora_work/devgen/eval16k/refs/en_1673.wav	5.1200	5.1200	-17.0885	-5.9115	0.4557	False
+refs			en	F	1993	/workH/kmt/gr/data/LibriTTS_R/dev-clean/1993/147964/1993_147964_000006_000005.wav	/workH/kmt/gr/cv3lora_work/devgen/eval16k/refs/en_1993.wav	6.0800	6.0800	-14.4991	-8.5009	0.3382	False
+refs			en	M	3000	/workH/kmt/gr/data/LibriTTS_R/dev-clean/3000/15664/3000_15664_000012_000000.wav	/workH/kmt/gr/cv3lora_work/devgen/eval16k/refs/en_3000.wav	7.6000	7.6000	-19.9236	-3.0764	0.6315	False
+refs			ja	F	jvs029	/db/JVS/jvs_ver1/jvs029/nonpara30/wav24kHz16bit/ONOMATOPEE300_212.wav	/workH/kmt/gr/cv3lora_work/devgen/eval16k/refs/ja_jvs029.wav	5.0454	4.3500	-30.3186	7.3186	0.5074	False
+refs			ja	M	jvs034	/db/JVS/jvs_ver1/jvs034/nonpara30/wav24kHz16bit/UT-PARAPHRASE-sent072-phrase1.wav	/workH/kmt/gr/cv3lora_work/devgen/eval16k/refs/ja_jvs034.wav	7.0412	6.3100	-27.3318	4.3318	0.5190	False
+refs			ja	F	jvs053	/db/JVS/jvs_ver1/jvs053/nonpara30/wav24kHz16bit/TRAVEL1000_0801.wav	/workH/kmt/gr/cv3lora_work/devgen/eval16k/refs/ja_jvs053.wav	6.5432	5.7400	-34.1318	11.1318	0.4772	False
+refs			ja	M	jvs086	/db/JVS/jvs_ver1/jvs086/nonpara30/wav24kHz16bit/UT-PARAPHRASE-sent163-phrase2.wav	/workH/kmt/gr/cv3lora_work/devgen/eval16k/refs/ja_jvs086.wav	4.3470	3.5500	-24.6611	1.6611	0.4377	False
