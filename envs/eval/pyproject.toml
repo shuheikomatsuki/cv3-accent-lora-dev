@@ -1,0 +1,40 @@
+# Evaluation tools of the dev generation and the final evaluation (research plan §12, §15).
+# Kept out of the production env (repository root) so its pins do not change. torch is the same cu128 build.
+# Run from the repository root: PYTHONPATH=src uv run --project envs/eval python scripts/devgen/...
+[project]
+name = "cv3lora-eval"
+version = "0.1.0"
+requires-python = "==3.10.*"
+dependencies = [
+    "torch==2.7.1",
+    "torchaudio==2.7.1",
+    "numpy==1.26.4",
+    "transformers==4.51.3",
+    "utmosv2",
+    "modelscope==1.20.0",
+    "librosa==0.10.2",
+    "soundfile==0.12.1",
+    "pyloudnorm==0.1.1",
+    "pyyaml",
+    "pandas",
+    "tqdm",
+    "addict>=2.4.0",
+    "simplejson>=4.2.0",
+    "sortedcontainers>=2.4.0",
+    "setuptools<81",
+    "datasets==3.0.1",
+    "oss2>=2.19.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchaudio = { index = "pytorch-cu128" }
+utmosv2 = { git = "https://github.com/sarulab-speech/UTMOSv2.git", tag = "v1.3.0" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
