@@ -287,6 +287,7 @@ dependencies = [
     { name = "oss2" },
     { name = "pandas" },
     { name = "pyloudnorm" },
+    { name = "pyopenjtalk" },
     { name = "pyyaml" },
     { name = "setuptools" },
     { name = "simplejson" },
@@ -310,6 +311,7 @@ requires-dist = [
     { name = "oss2", specifier = ">=2.19.1" },
     { name = "pandas" },
     { name = "pyloudnorm", specifier = "==0.1.1" },
+    { name = "pyopenjtalk", specifier = "==0.4.1" },
     { name = "pyyaml" },
     { name = "setuptools", specifier = "<81" },
     { name = "simplejson", specifier = ">=4.2.0" },
@@ -994,6 +996,16 @@ sdist = { url = "https://files.pythonhosted.org/packages/75/b5/39d59c44ecd828fab
 wheels = [
     { url = "https://files.pythonhosted.org/packages/58/f5/6724805521ab4e723a12182f92374031032aff28a8a89dc8505c52b79032/pyloudnorm-0.1.1-py3-none-any.whl", hash = "sha256:d7f12ebdd097a464d87ce2878fc4d942f15f8233e26cc03f33fefa226f869a14", size = 9636, upload-time = "2023-01-05T16:11:27.331Z" },
 ]
+
+[[package]]
+name = "pyopenjtalk"
+version = "0.4.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/58/74/ccd31c696f047ba381f9b11a504bf1199756c3f30f3de64e3eeb83e10b4a/pyopenjtalk-0.4.1.tar.gz", hash = "sha256:d5ada46f7fc2b52c1c79c273eb9668ff6ad7ab276a8db9d8be119ef93440f0dc", size = 1397999, upload-time = "2025-04-08T06:27:46.528Z" }
 
 [[package]]
 name = "python-dateutil"

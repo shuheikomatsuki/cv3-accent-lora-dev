@@ -1,0 +1,13 @@
+{
+ "n": 400,
+ "cer_capped": 0.39450151859826244,
+ "cer_median": 0.3783783783783784,
+ "kept_share": 0.7875,
+ "cer_excl>0.5": 0.34647372733338394,
+ "cer_outside_capped": 0.4378390764395188,
+ "target_ok": 0.96,
+ "uttertune_table1": {
+  "CosyVoice 2": 0.0557,
+  "UtterTune": 0.0639
+ }
+}

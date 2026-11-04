@@ -24,6 +24,7 @@ dependencies = [
     "setuptools<81",
     "datasets==3.0.1",
     "oss2>=2.19.1",
+    "pyopenjtalk==0.4.1",
 ]
 
 [tool.uv]
