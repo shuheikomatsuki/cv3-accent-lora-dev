@@ -13,3 +13,19 @@
   references (JVS dev 4 vs ReazonSpeech 42), ASR (kana-whisper vs constrained Whisper large-v3), their CER>0.5
   exclusion and trailing-repeat trimming. Both aggregations are reported.
 - Scripts: `scripts/easy50/01_inputs.py` … `04_summary.py`.
+
+## 2x2: model {CV2, CV3} x {base, +LoRA}, all cross_lingual (2026-11-04)
+
+To find why condition C scores several times UtterTune's CER on the same input. Same sentences, mode, references
+(JA dev 4), reading references and ASR (kana-whisper); LLM seed 0. CV2 side: `scripts/easy50/05_gen_cv2.py` in
+`/workH/kmt/pre_exps/1019_uttertune_eval_cmp/.venv_ut`; CV3 base: `02_gen.py --cond A`. The user included the
+CV3 base cell in the same decision (not used to choose final-evaluation conditions).
+
+| | base, plain text | + LoRA, tagged |
+|---|---|---|
+| CV2 | CV2A 0.081 (target 0.71) | UT 0.035 (target 0.95) |
+| CV3 | A 0.562 (target 0.22) | C 0.385 (target 0.95) |
+
+CER capped per file, seed 0, 200 files each (`summary.json`). UtterTune's Table 1: CosyVoice 2 0.0557,
+UtterTune 0.0639. The gap is the base model: CV2 reads the kanji, CV3 does not; both LoRAs fix the target word.
+CV2A ran to max_len on 20 of 50 sentences (trailing extra audio); ignoring trailing extra characters its CER is 0.076.

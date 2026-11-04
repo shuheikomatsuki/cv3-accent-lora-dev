@@ -1,11 +1,49 @@
 {
- "n": 400,
- "cer_capped": 0.39450151859826244,
- "cer_median": 0.3783783783783784,
- "kept_share": 0.7875,
- "cer_excl>0.5": 0.34647372733338394,
- "cer_outside_capped": 0.4378390764395188,
- "target_ok": 0.96,
+ "C": {
+  "n": 200,
+  "cer_capped": 0.3851655282456809,
+  "cer_median": 0.375,
+  "kept_share": 0.79,
+  "cer_excl>0.5": 0.3372096683692161,
+  "cer_outside_capped": 0.4267622176174072,
+  "target_ok": 0.95
+ },
+ "C, seeds 0+1": {
+  "n": 400,
+  "cer_capped": 0.39450151859826244,
+  "cer_median": 0.3783783783783784,
+  "kept_share": 0.7875,
+  "cer_excl>0.5": 0.34647372733338394,
+  "cer_outside_capped": 0.4378390764395188,
+  "target_ok": 0.96
+ },
+ "A": {
+  "n": 200,
+  "cer_capped": 0.5620774840775011,
+  "cer_median": 0.5747340425531915,
+  "kept_share": 0.32,
+  "cer_excl>0.5": 0.401104934023109,
+  "cer_outside_capped": 0.554118291631074,
+  "target_ok": 0.22
+ },
+ "CV2A": {
+  "n": 200,
+  "cer_capped": 0.08061626383525076,
+  "cer_median": 0.038461538461538464,
+  "kept_share": 1.0,
+  "cer_excl>0.5": 0.08061626383525076,
+  "cer_outside_capped": 0.07692041060938187,
+  "target_ok": 0.715
+ },
+ "UT": {
+  "n": 200,
+  "cer_capped": 0.03500957440596172,
+  "cer_median": 0.025,
+  "kept_share": 1.0,
+  "cer_excl>0.5": 0.03500957440596172,
+  "cer_outside_capped": 0.03809570354133847,
+  "target_ok": 0.955
+ },
  "uttertune_table1": {
   "CosyVoice 2": 0.0557,
   "UtterTune": 0.0639
