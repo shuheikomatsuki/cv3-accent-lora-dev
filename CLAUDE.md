@@ -3,7 +3,7 @@
 LoRA for local reading/accent control in Fun-CosyVoice3 (UtterTune-style `<PHON_START>…<PHON_END>` tags).
 
 ## Read first
-- Research plan: `/workH/kmt/gr/research_plan_cv3_accent_lora.md` (outside this repo). Follow its §0 rules:
+- Research plan: `/workH/kmt/gr/plan/` (outside this repo). Read `plan/README.md` (index + §0 rules), then only the files you need. Follow its §0 rules:
   one fact in one place, never treat 【検討中】 items as decided, do not re-propose §3 items.
 
 ## Environment
