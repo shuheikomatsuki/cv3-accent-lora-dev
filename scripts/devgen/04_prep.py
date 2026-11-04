@@ -40,7 +40,7 @@ def items(cond: str, paths: dict) -> list[dict]:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cond", nargs="+", required=True, choices=["A", "Ap", "C", "D", "Cp", "O", "R", "refs"])
+    ap.add_argument("--cond", nargs="+", required=True, choices=["A", "Ap", "C", "D", "Cp", "O", "R", "refs", "Az"])
     args = ap.parse_args()
     paths = load_paths()
     for cond in args.cond:

@@ -37,7 +37,7 @@ def ctc_greedy(model, inv, x) -> str:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--cond", nargs="+", required=True, choices=["A", "Ap", "C", "D", "Cp", "O", "R"])
+    ap.add_argument("--cond", nargs="+", required=True, choices=["A", "Ap", "C", "D", "Cp", "O", "R", "Az"])
     args = ap.parse_args()
     asr = pipeline("automatic-speech-recognition", model=KW, torch_dtype=torch.float16, device="cuda")
     ctc, vocab = load_ctc()
