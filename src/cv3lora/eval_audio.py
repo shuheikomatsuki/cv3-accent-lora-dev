@@ -58,7 +58,7 @@ def canon(s: str) -> str:
         if not ("ァ" <= c <= "ヺ" or c == "ー"):
             continue
         c = SAME.get(c, c)
-        if c in LENGTHEN and out and ROW.get(out[-1], "") in LENGTHEN[c]:
+        if c in LENGTHEN and out and out[-1] in ROW and ROW[out[-1]] in LENGTHEN[c]:  # ン, ッ, ー lengthen nothing
             c = "ー"
         out.append(c)
     return "".join(out)

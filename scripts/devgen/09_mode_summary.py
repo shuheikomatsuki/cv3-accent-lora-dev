@@ -2,7 +2,7 @@
 
 Side check for the gap to UtterTune's CER; not part of the §12 judgement. Same files on both sides:
 JA dev references (4), LLM seed 0, both recognizers of 05_asr.py, references and normalization of 07_judge.py
-(cv3lora.eval_audio.canon, with its known long-vowel bug; it hits both sides alike). Also R (the recordings).
+(cv3lora.eval_audio.canon; the committed tables predate its 2026-11-06 fix for vowels after ン/ッ/ー). Also R (the recordings).
 
 Two aggregations, per file then mean:
   capped     CER capped at 1.0 per file, no exclusion (this study's rule)

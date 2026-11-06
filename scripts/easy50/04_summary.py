@@ -3,7 +3,7 @@
 Conditions: C (CV3+LoRA, tagged), A (CV3 base, plain), CV2A (CV2 base, plain), UT (CV2+UtterTune LoRA, tagged); all
 cross_lingual. The 2x2 is read on LLM seed 0 (C also has seed 1, reported separately as "C, seeds 0+1").
 Per file CER against results/easy50/inputs.tsv ref_kana, normalization of scripts/devgen/07_judge.py
-(cv3lora.eval_audio.canon, known long-vowel bug kept for comparability with the dev numbers).
+(cv3lora.eval_audio.canon; the committed tables predate its 2026-11-06 fix for vowels after ン/ッ/ー).
   capped    per-file CER capped at 1.0, no exclusion (this study's rule)
   excl>0.5  files with CER > 0.5 dropped (UtterTune's rule); kept share reported
 Target reading accuracy and CER outside the target use the tag span (also defined for the plain-text conditions,
